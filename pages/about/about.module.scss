@@ -1,0 +1,26 @@
+@import 'colors.scss';
+
+.testColor {
+  color: hotpink;
+}
+
+.mediaQueries {
+  //Alla storlekar som inte står som någon annan färg under
+  background-color: pink;
+
+  //Över 1100px
+  @include mq(1, 1, 1100px) {
+    background-color: $success;
+    width: 800px;
+  }
+
+  //Mellan 850-1100px
+  @include mq(1100px, 850px) {
+    background-color: turquoise;
+  }
+
+  //Under 600px
+  @include mq(600px) {
+    background-color: yellow;
+  }
+}

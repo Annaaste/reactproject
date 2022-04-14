@@ -1,0 +1,40 @@
+$yellow: #FEF083;
+$white: #FFF;
+$darkBlack: #000;
+$easterYellow: #F4D84D;
+
+$bodyBlack: #333333;
+$headerBlack: #222222;
+$lightGrey: #DDD;
+$mediumGrey: #999999;
+$darkGrey: #646464;
+
+$info: blue;
+$message: yellow;
+$error: orange;
+$success: green;
+$warning: red;
+
+
+//MEDIA QUERIES
+//Visas i about.module.scss hur dom används
+@mixin mq($mqValue...) {
+  //Större än x pixlar
+  @if length($mqValue) == 1 {
+      @media screen and (max-width: nth($mqValue, 1)) {
+          @content;
+      }
+  }
+  //Mellan x pixlar och x pixlar (högt till lågt)
+  @if length($mqValue) == 2 {
+      @media screen and (max-width: nth($mqValue, 1)) and (min-width: nth($mqValue, 2)) {
+          @content;
+      }
+  }
+  //Mindre än x pixlar
+  @if length($mqValue) == 3 {
+      @media screen and (min-width: nth($mqValue, 3)) {
+          @content;
+      }
+  }
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'colors.scss';
+
+/*
+Man kan inte använda html-element utan namn till CSS någon annanstans 
+än här. OBS ändra INGET i denna fil för det påverkar ALLT <3
+*/
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* OUR RESET */
+i, em {
+    font-style: italic;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    color: inherit;
+    background-color: inherit; 
+    display: inline-block;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+} 
+
+button:focus {
+    outline: none;
+    outline-offset: 0;
+}
+/* END CSS RESET */
+
+
+/* START GLOBAL CODE */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  //Ger användaren det typsnitt den är mest van vid
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  //Overridar ovanstående typsnitt
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+  background-color: #FCFCFC;
+  color: $bodyBlack;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  color: $headerBlack;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+.subHeading {
+    font-weight: 300;
+}
+
+.body2 {
+    font-size: 1.3rem;
+}
+
+.body3 {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.labelRegular {
+    font-size: 1.3rem;
+}
+
+.labelLargeRegular {
+    font-size: 1.6rem;
+}
+
+.labelButtonRegular {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+a {
+  color: $info;
+}

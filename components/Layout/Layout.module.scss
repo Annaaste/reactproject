@@ -1,0 +1,17 @@
+@import 'colors.scss';
+
+//Gör så att footern alltid hamnar längst ner
+.surroundingContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.surroundAllPages {
+  //Gör så att footern alltid hamnar längst ner
+  flex: 1;
+  //Lika mycket padding till alla sidor
+  padding: 2rem;
+  //Lägger innehållet i mitten av sidan (utan att centrera texten)
+  margin: 0 auto;
+}
