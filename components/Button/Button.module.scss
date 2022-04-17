@@ -1,0 +1,9 @@
+@import 'colors.scss';
+
+//Inte riktiga knappen -Anpassa allt till riktiga knapputseendet
+.buttonContainer {
+  padding: 1rem;
+  background-color: $darkBlack;
+  color: $white;
+  border-radius: 0.5rem;
+}

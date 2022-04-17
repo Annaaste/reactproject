@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Button from '../../components/Button/Button';
 import styles from './about.module.scss'
 
 const About = () => {
@@ -32,6 +33,9 @@ const About = () => {
           över hela landet och blev omsider ett allmänt hälsningsord.
         </p>
       </div>
+      <Button
+        text={"Det här är en knapp"}
+      />
     </>
    );
 }
