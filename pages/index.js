@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import SearchBar from '../components/SearchBar/SearchBar';
+import EarlierSearches from '../components/EarlierSearches/EarlierSearches';
 
 import styles from './startPage.module.scss'
 
@@ -13,8 +14,12 @@ export default function Home() {
           content="Här står det info som kan synas på Google om just den här sidan"
         />
       </Head>
-      <h1 className={styles.startpageHeader}>Hitta en ersättningsingrediens</h1>
+      <h1 className={styles.startpageHeader}>Find a substitute ingredient</h1>
       <SearchBar />
+      <div className={styles.suggestionContainer}>
+        <EarlierSearches />
+        <EarlierSearches />
+      </div>
     </>
   )
 }
