@@ -1,9 +1,41 @@
 @import 'colors.scss';
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
+  background-color: hotpink;
+
 }
 
 .logo {
-  height: 80px;
+  background-color: lime;
+  height: 20px;
+}
+
+.mainMenu {
+  display: flex;
+  background-color: $lightGrey;
+  border: 1rem solid $white;
+  border-radius: 0.7rem;
+}
+
+.menuSubstitute,
+.menuConvert {
+  color: $bodyBlack;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 3rem;
+  border-radius: 0.7rem;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.menuSubstitute {
+  background-color: $yellow;
+}
+
+.menuConvert {
+  background-color: $lightGrey;
 }
