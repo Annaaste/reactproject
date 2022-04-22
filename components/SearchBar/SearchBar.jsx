@@ -1,11 +1,11 @@
 import styles from './SearchBar.module.scss'
 
 const SearchBar = () => {
-  return ( 
+  return (
     <div className={styles.searchBarContainer}>
-      <p>Här ligger sökrutan och sökknappen</p>
+      <input type="text"></input>
     </div>
-   );
+  );
 }
- 
+
 export default SearchBar;
