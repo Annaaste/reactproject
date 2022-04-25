@@ -105,7 +105,7 @@ body {
   font-size: 1.6rem;
   background-color: #FCFCFC;
   color: $bodyBlack;
-  line-height: 1.8;
+  line-height: 24px;
 }
 
 h1,
@@ -118,44 +118,52 @@ h4 {
 
 h1 {
     font-size: 4.8rem;
+    line-height: 56px;
 }
 
 h2 {
     font-size: 4rem;
+    line-height: 48px;
 }
 
 h3 {
     font-size: 3.2rem;
+    line-height: 40px;
 }
 
 h4 {
     font-size: 2.4rem;
+    line-height: 32px;
 }
 
 .subHeading {
     font-weight: 300;
+    line-height: 32px;
 }
 
 .body2 {
     font-size: 1.3rem;
+    line-height: 20px;
 }
 
 .body3 {
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 16px;
 }
 
 .labelRegular {
     font-size: 1.3rem;
+    line-height: 24px;
 }
 
 .labelLargeRegular {
     font-size: 1.6rem;
+    line-height: 28px;
 }
 
 .labelButtonRegular {
     font-size: 1.6rem;
-    line-height: 1.6;
+    line-height: 16px;
 }
 
 a {
