@@ -6,16 +6,14 @@ const Footer = () => {
   return ( 
     <footer className={styles.footerContainer}>
       <img
-            src="/images/logo.png"
+            src="/images/logoBlack.svg"
             className={styles.logo}
             //Berättar för screenreaders att loggan går till startsidan
             alt="Logga med namnet ingrii och en cirkel på slutet "
           />
       <div className={styles.getInTouch}>
         <p>Feedback, praise or blame? Or can´t find what your looking for? Get in touch!</p>
-        <Link href="/about">
-          Såhär länkar man till en annan sida
-        </Link>
+        
         <a 
           href="mailto:anna.dyberg@gmail.com"
           // såhär anropar man flera klasser
@@ -24,7 +22,9 @@ const Footer = () => {
           hello@ingrii.com
         </a>
       </div>
-      <p className={styles.color2}>2022 Grupp 2 STI</p>
+      <p className={styles.color2}>2022 <Link href="/about">
+          Länk annan sida
+        </Link></p>
     </footer>
    );
 }
