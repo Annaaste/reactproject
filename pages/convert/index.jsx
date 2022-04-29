@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import MeasureSelect from './MeasureSelect'
-import Switch from './Switch'
-import Input from './Input'
-import measures from './measures'
+import MeasureSelect from '../../components/ConvertAtoms/MeasureSelect'
+import Switch from '../../components/ConvertAtoms/Switch'
+import Input from '../../components/ConvertAtoms/Input'
+import measures from '../../components/ConvertAtoms/measures'
 
 const Convert = () => {
   const [unitA, setUnitA] = useState(measures.a.set1["?"])
