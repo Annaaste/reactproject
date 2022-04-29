@@ -12,7 +12,7 @@ const Footer = () => {
             alt="Logga med namnet ingrii och en cirkel på slutet "
           />
       <div className={styles.getInTouch}>
-        <p>Feedback, praise or blame? Or can´t find what your looking for? Get in touch!</p>
+        <p>Feedback, praise or blame? Or can&#39;t find what you&#39;re looking for? Get in touch!</p>
         
         <a 
           href="mailto:anna.dyberg@gmail.com"
@@ -22,7 +22,7 @@ const Footer = () => {
           hello@ingrii.com
         </a>
       </div>
-      <p className={styles.color2}>2022 <Link href="/about">
+      <p className={styles.color2}>©2022 <Link href="/about">
           Länk annan sida
         </Link></p>
     </footer>
