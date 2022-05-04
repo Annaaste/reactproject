@@ -1,6 +1,19 @@
 @import 'colors.scss';
 
-.suggestionContainer {
-  padding: 1rem;
+.centerStartPage {
+  background-color: pink;
+  padding: 5rem;
+  
+}
+
+.startTextContainer {
+  background-color: aqua;
+  width: 50rem;
   text-align: center;
+  margin: auto;
+
+}
+
+.frontText {
+  color: $yellow;
 }
