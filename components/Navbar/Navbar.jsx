@@ -12,7 +12,7 @@ const Navbar = () => {
       <Link href="/">
         <a aria-label='Gå till startsidan'>
           <img
-            src="/images/logoWhite.svg"
+            src="/images/logoBlack.svg"
             className={styles.logo}
             //Berättar för screenreaders att loggan går till startsidan
             alt="Logga med namnet ingrii och en cirkel på slutet "
