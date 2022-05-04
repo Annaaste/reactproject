@@ -9,13 +9,11 @@ const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
   }
 
   return (
-    <p> 
       <div>
       <button type="button" className="button" onClick={onSwitch}>
         <i className="button"></i> switch
       </button>
       </div>
-    </p>
   )
 }
 
