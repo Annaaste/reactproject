@@ -1,8 +1,12 @@
+import { useRouter } from 'next/router'
 import Link from 'next/link'
-import Image from 'next/image'
 import styles from './Navbar.module.scss'
 
 const Navbar = () => {
+
+  //För att kunna känna av vad som står i url:en
+  const router = useRouter();
+
   return (
     <nav className={styles.navbar}>
       <Link href="/">
@@ -16,15 +20,26 @@ const Navbar = () => {
         </a>
       </Link>
       <div className={styles.mainMenu}>
-        <Link href="/"><a className={styles.menuSubstitute}>Substitute </a></Link>
-        <Link href="/convert"><a className={styles.menuConvert}> Conversion</a></Link>
+        <Link href="/">
+          <a className={router.pathname === "/" ? styles.activePage : styles.nonActivePage}>
+            Substitute 
+          </a>
+        </Link>
+        {/* Aktivera när startsidan lagts till.
+        <Link href="/substitute">
+          <a className={router.pathname === "/substitute" ? styles.activePage : styles.nonActivePage}>
+            Substitute 
+          </a>
+        </Link>
+        */}
+        <Link href="/convert">
+          <a className={router.pathname === "/convert" ? styles.activePage : styles.nonActivePage}> 
+            Conversion
+          </a>
+        </Link>
       </div>
-      <Image
-        width={15}
-        height={15}
-        alt=""
-        src="/images/icons/starIcon.svg"
-      />
+      {/* Tom p-tagg så att menyn centreras korrekt */ }
+      <p></p>
     </nav>
   );
 }
