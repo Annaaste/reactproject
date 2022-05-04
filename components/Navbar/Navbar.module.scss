@@ -5,8 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  //background-color: hotpink;
-
+  background-color:  $yellow;
 }
 
 .logo {
@@ -17,26 +16,23 @@
 
 .mainMenu {
   display: flex;
-  background-color: $lightGrey;
-  border: 1rem solid $white;
-  border-radius: 0.7rem;
 }
 
-.menuSubstitute,
-.menuConvert {
+.nonActivePage,
+.activePage {
+  display: flex;
+  align-items: center;
   color: $bodyBlack;
   text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.5rem 3rem;
-  border-radius: 0.7rem;
-  font-weight: 700;
+  //text-transform: uppercase;
+  margin-bottom: -1.5rem;
+  padding: 0.5rem 1.5rem;
   font-size: 13px;
+  font-weight: 700;
 }
 
-.menuSubstitute {
-  background-color: $yellow;
-}
-
-.menuConvert {
-  background-color: $lightGrey;
+.activePage {
+  background-color: $headerBlack;
+  color: $white;
+  border-radius: 0.7rem 0.7rem 0 0;
 }
