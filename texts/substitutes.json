@@ -1,13 +1,52 @@
 [
   {
     "image": "",
-    "ingredient": "", 
+    "ingredient": "Buttermilk",
     "substitute": ""
   },
   {
-    "image":"",
-    "ingredient": "", 
+    "image": "",
+    "ingredient": "Olive oil",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Red lentil",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Chipotle",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Lime",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Egg",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Red wine",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Seitan",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Yoghurt",
+    "substitute": ""
+  },
+  {
+    "image": "",
+    "ingredient": "Cinnamon",
     "substitute": ""
   }
 ]
-
