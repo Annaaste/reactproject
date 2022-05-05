@@ -1,8 +1,75 @@
 @import 'colors.scss';
 
 .searchBarContainer {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  padding: 2rem;
+  background-color: $white;
+  padding: 0 20px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.searchBarContainer .searchInput {
+  position: relative;
+  background: $white;
+  width: 100%;
+}
+
+.searchInput .input {
+  height: 56px;
+  width: 632px;
+  outline: none;
+  border: none;
+  padding: 0 60px 0 20px;
+  box-shadow: 0px 1px 5px $darkGrey;
+  border-radius: 9px 0px 0px 9px;
+}
+
+.searchButton {
+  height: 56px;
+  width: 56px;
+  line-height: 56px;
+  background-color: $yellow;
+  position: absolute;
+  top: 0;
+  right: -70px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px $darkGrey;
+  border-radius: 0px 9px 9px 0px;
+}
+
+.searchButton:hover {
+  background: $easterYellow;
+}
+
+.searchInput .autocomBox {
+  //padding: 10px 8px;
+  max-height: 280px;
+  overflow-y: auto;
+  background-color: $white;
+  box-shadow: 0px 1px 5px 3px $darkGrey;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.searchInput.active .autocomBox {
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocomBox li {
+  list-style: none;
+  padding: 8px 12px;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+  display: none;
+}
+
+.searchInput.active .autocomBox li {
+  display: block;
+}
+
+.autocomBox li:hover {
+  background: $lightGrey;
 }
