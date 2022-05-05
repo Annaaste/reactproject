@@ -15,3 +15,26 @@
   //Lägger innehållet i mitten av sidan (utan att centrera texten)
   margin: 0 auto;
 }
+
+.backgroundImageStartPage {
+  @extend .surroundingContainer;
+  background: url('/images/bgStartPage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: pink;
+}
+
+.backgroundImageSubstitute {
+  @extend .surroundingContainer;
+  background: url('/images/bgSubstitute.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundImageConvert {
+  @extend .surroundingContainer;
+  background: url('/images/bgConvert.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: lime;
+}

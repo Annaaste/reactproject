@@ -1,7 +1,12 @@
+
 import Head from 'next/head'
 import SearchBar from '../../components/SearchBar/SearchBar';
 
+
 import styles from './substitute.module.scss'
+import Image from 'next/image'
+
+
 
 const Substitute = () => {
   return (
@@ -13,7 +18,12 @@ const Substitute = () => {
           content="Här står det info som kan synas på Google om just den här sidan"
         />
       </Head>
-      <SearchBar />
+      <div className={styles.backgroundImage}>
+        
+         <SearchBar /> 
+
+      </div>
+     
     </>
   )
 }
