@@ -44,7 +44,7 @@ const Convert = () => {
       <div className="header">
         <h1>Conversion</h1>
       </div>
-      <form className="Form" onSubmit={onSubmit}>
+      <form className="Form"  onKeyUp={onSubmit}>
         <fieldset>
           
           <MeasureSelect 

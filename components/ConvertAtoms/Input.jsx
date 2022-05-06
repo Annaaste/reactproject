@@ -15,9 +15,9 @@ const Input = ({unitA, unitB, input, output, setInput}) => {
         onChange={({target}) => setInput(target.value)}
       />
       <label> {unitA.symbol} </label>
-      <div>
+      {/* <div>
       <button type="submit" className="button">convert</button>
-      </div>
+      </div> */}
       <div>
       <input
         type="text"

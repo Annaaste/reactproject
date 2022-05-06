@@ -10,8 +10,8 @@ const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
 
   return (
       <div>
-      <button type="button" className="button" onClick={onSwitch}>
-        <i className="button"></i> switch
+      <button type="switchButton" className="switchButton" onClick={onSwitch}>
+        <i className="Button"></i> switch
       </button>
       </div>
   )
