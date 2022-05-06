@@ -1,11 +1,11 @@
 import styles from './substitute-result.module.scss'
-
+import SearchBar from '../../components/SearchBar/SearchBar';
 const SubstituteResult = () => {
-  return ( 
+  return (
     <div className={styles.resultContainer}>
-      <p>Här visas resultatet efter att man valt livsmedel</p>
+      <SearchBar />
     </div>
-   );
+  );
 }
- 
+
 export default SubstituteResult;
