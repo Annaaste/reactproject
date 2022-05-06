@@ -11,6 +11,10 @@ const SearchBar = () => {
           <li>Olive oil</li>
           <li>Lime</li>
           <li>Egg</li>
+          <li>Red wine</li>
+          <li>Seitan</li>
+          <li>Yoghurt</li>
+          <li>Cinnamon</li>
         </div>
         <div className={styles.searchButton}>
           <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
