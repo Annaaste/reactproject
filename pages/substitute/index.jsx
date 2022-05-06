@@ -13,19 +13,19 @@ const Substitute = () => {
     <>
       <Head>
         <title>Substitut | ingrii</title>
-        <meta 
+        <meta
           name="description"
           content="Här står det info som kan synas på Google om just den här sidan"
         />
       </Head>
       <div className={styles.backgroundImage}>
-        
-         <SearchBar /> 
+        <h1>Find your Substitute Ingredient</h1>
+        <SearchBar />
 
       </div>
-     
+
     </>
   )
 }
- 
+
 export default Substitute;
