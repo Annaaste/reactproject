@@ -18,23 +18,23 @@
 
 .backgroundImageStartPage {
   @extend .surroundingContainer;
-  background: url('/images/bgStartPage.png');
+  background: linear-gradient((180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 39.58%),), url('/images/bgStartPage.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background: pink;
 }
 
 .backgroundImageSubstitute {
   @extend .surroundingContainer;
-  background: url('/images/bgSubstitute.png');
+  background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55))), url('/images/bgSubstitute.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .backgroundImageConvert {
   @extend .surroundingContainer;
-  background: url('/images/bgConvert.png');
+  background: linear-gradient((0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))), url('/images/bgConvert.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background: beige;
 }
+
