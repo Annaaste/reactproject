@@ -11,13 +11,13 @@ const SubstituteResult = () => {
       {
         Data.map((post, index) => (
           <div className="box" key={post.id}>
-            <p>{post.ingredient}</p>
-            <p>{post.substitute}</p>
+            <p>Ingredient: {post.ingredient}</p>
+            <p>Description: {post.description}</p>
+            <p>Substitute: {post.substitute}</p>
           </div>
         ))
       }
     </div>
   );
 }
-
 export default SubstituteResult;
