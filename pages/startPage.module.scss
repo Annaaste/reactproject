@@ -1,14 +1,25 @@
 @import 'colors.scss';
 
+.clickAlternative {
+  background-color: $darkBlack;
+  color: $yellow;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  width: 40rem;
+  border-radius: 0.8rem;
+}
+
 .centerStartPage {
   //background-color: pink;
-  padding: 5rem;
+  padding: 25rem;
   
 }
 
 .startTextContainer {
   //background-color: aqua;
-  width: 50rem;
+  width: 70rem;
   text-align: center;
   margin: auto;
 
@@ -16,4 +27,18 @@
 
 .frontText {
   color: $yellow;
+  padding: 1rem;
+}
+
+.welcome {
+  font-size: 32px;
+  font-weight: bold;
+  color: $yellow;
+  padding: 1rem;
+}
+
+.missionText {
+  color: $white;
+  font-weight: bold;
+  padding: 1rem;
 }

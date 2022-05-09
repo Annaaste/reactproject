@@ -4,13 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 2rem;
+  padding: 0.5rem 3rem;
   background-color: $yellow;
 }
 
 .footerMail {
   display: block;
   font-weight: 700;
+  font-size: 1.3rem;
   color: $darkBlack;
   text-decoration: none;
 }
@@ -20,6 +21,10 @@
 }  
 
 .logo {
-  height: 21.64px;
-  width: 50px;
+  height: 30px;
+  width: 83px;
+}
+
+.color2 {
+  font-size: 1.3rem;
 }
