@@ -11,8 +11,8 @@
 
 .logo {
   background-color: none;
-  height: 21.64px;
-  width: 50px;
+  height: 30px;
+  width: 83px;
 }
 
 .mainMenu {
@@ -27,13 +27,14 @@
   text-decoration: none;
   //text-transform: uppercase;
   margin-bottom: -1.5rem;
-  padding: 0.5rem 1.5rem;
-  font-size: 13px;
+  padding: 0.9rem 1.5rem;
+  font-size: 15px;
   font-weight: 700;
 }
 
 .activePage {
-  background-color: $headerBlack;
+  background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)));
+  background-color: #73E5EC;
   color: $white;
   border-radius: 0.7rem 0.7rem 0 0;
 }

@@ -12,7 +12,7 @@ const Footer = () => {
             alt="Logga med namnet ingrii och en cirkel på slutet "
           />
       <div className={styles.getInTouch}>
-        <p>Feedback, praise or blame? Or can&#39;t find what you&#39;re looking for? Get in touch!</p>
+        <p className='body2'>Feedback, praise or blame? Or can&#39;t find what you&#39;re looking for? Get in touch!</p>
         
         <a 
           href="mailto:anna.dyberg@gmail.com"
