@@ -11,7 +11,7 @@ const SubstituteResult = () => {
       {
         Data.filter(post => {
           if (query === '') {
-            return post;
+            return null;
           } else if (post.ingredient.toLowerCase().includes(query.toLowerCase())) {
             return post;
           }
