@@ -20,7 +20,7 @@ const Input = ({unitA, unitB, input, output, setInput}) => {
       <button type="submit" className="button">convert</button>
       </div> */}
       <div>
-      <input
+      <input className={styles.input}
         type="text"
         id="output"
         value={output}
