@@ -3,6 +3,8 @@ import MeasureSelect from '../../components/ConvertAtoms/MeasureSelect'
 import Switch from '../../components/ConvertAtoms/Switch'
 import Input from '../../components/ConvertAtoms/Input'
 import measures from '../../components/ConvertAtoms/measures'
+import styles from './convert.module.scss'
+import Image from 'next/image'
 
 const Convert = () => {
   const [unitA, setUnitA] = useState(measures.a.set1["?"])
@@ -25,12 +27,12 @@ const Convert = () => {
   }
 
   const _calculate = (unit, conversionVal) => {
-    if(["?", "?"].includes(unit)){
+/*     if(["?", "?"].includes(unit)){
       let val = unit === "?"
         ? input * conversionVal[0] + conversionVal[1]
         : (input - conversionVal[1]) / conversionVal[0]
       return val.toFixed(1)
-    }
+    } */
 
     let val = ["Liters", "LitersML", "Kilograms", "KilogramsLBS"].includes(unit) 
       ? input * conversionVal 
