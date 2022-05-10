@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './ConvertAtoms.module.scss'
 
 const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
   const onSwitch = (event) => {
@@ -10,10 +11,14 @@ const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
 
   return (
       <div>
-      <button type="switchButton" className="switchButton" onClick={onSwitch}>
-        <i className="Button"></i> switch
+      <button type="button"  onClick={onSwitch}>
+      <button className={styles.buttonIcon}><img src='../images/icons/switchIcon.svg'></img></button>
+        <i className={styles.switchButton}></i>
       </button>
-      </div>
+      </div> 
+      
+
+
   )
 }
 
