@@ -17,9 +17,13 @@ const SubstituteResult = () => {
           }
         }).map((post, index) => (
           <div className="box" key={index}>
-            <p>{post.ingredient}</p>
+            <br />
+            <h2>{post.ingredient}</h2>
+            <br />
             <p>{post.image}</p>
+            <br />
             <p>{post.description}</p>
+            <br />
             <p>{post.substitute}</p>
           </div>
         ))
