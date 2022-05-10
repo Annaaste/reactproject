@@ -20,7 +20,8 @@
 }
 
 .nonActivePage,
-.activePage {
+.activePage,
+.activePage2 {
   display: flex;
   align-items: center;
   color: $bodyBlack;
@@ -35,6 +36,13 @@
 .activePage {
   background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)));
   background-color: #73E5EC;
+  color: $white;
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+
+.activePage2 {
+  background: linear-gradient((0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)));
+  background-color: #e1d23c;
   color: $white;
   border-radius: 0.7rem 0.7rem 0 0;
 }

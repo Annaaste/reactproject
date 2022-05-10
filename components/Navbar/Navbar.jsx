@@ -28,7 +28,7 @@ const Navbar = () => {
         </Link>
         
         <Link href="/convert">
-          <a className={router.pathname === "/convert" ? styles.activePage : styles.nonActivePage}> 
+          <a className={router.pathname === "/convert" ? styles.activePage2 : styles.nonActivePage}> 
             Conversion
           </a>
         </Link>
