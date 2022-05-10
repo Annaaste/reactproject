@@ -13,7 +13,6 @@ const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
       <div>
       <button type="button"  onClick={onSwitch}>
       <button className={styles.buttonIcon}><img src='../images/icons/switchIcon.svg'></img></button>
-        <i className={styles.switchButton}></i>
       </button>
       </div> 
       

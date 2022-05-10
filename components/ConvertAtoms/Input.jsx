@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './ConvertAtoms.module.scss'
 
 const Input = ({unitA, unitB, input, output, setInput}) => {
 
@@ -7,7 +8,7 @@ const Input = ({unitA, unitB, input, output, setInput}) => {
       <div>
         <p>Value to convert:</p>
       </div>
-      <input 
+      <input className={styles.input}
         type="text"
         id="input"
         value={input}
@@ -19,7 +20,7 @@ const Input = ({unitA, unitB, input, output, setInput}) => {
       <button type="submit" className="button">convert</button>
       </div> */}
       <div>
-      <input
+      <input className={styles.input}
         type="text"
         id="output"
         value={output}
