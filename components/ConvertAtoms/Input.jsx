@@ -6,7 +6,7 @@ const Input = ({unitA, unitB, input, output, setInput}) => {
   return (
     <div>
       <div>
-        <p>Value to convert:</p>
+        <p className={styles.helpText}>Value to convert:</p>
       </div>
       <input className={styles.input}
         type="text"

@@ -1,6 +1,7 @@
 import React from 'react'
 import SubSelect from './SubSelect'
 import measures from './measures'
+import styles from './ConvertAtoms.module.scss'
 
 const MeasureSelect = ({measurement, setMeasurement, unit, setUnitA, setUnitB}) => {
   const onSelectChange = (value) => {
@@ -40,15 +41,17 @@ const MeasureSelect = ({measurement, setMeasurement, unit, setUnitA, setUnitB}) 
   }
 
   return (
-    <div>
-      <label htmlFor="measurements">Convert from: </label>
-        <select name="measurements" id="measurements" onChange={({target}) => onSelectChange(target.value)}>
+    <div> 
+      <label className={styles.helpText} htmlFor="measurements">Convert from: </label>
+      
+        <select name="measurements" className={styles.input}  id="measurements" onChange={({target}) => onSelectChange(target.value)}>
+        
           <option value="a">?</option>
           <option value="b">LITERS</option>
           <option value="c">KILOGRAMS</option>
         </select>
         <div>
-        <label htmlFor="measurements">Convert to: </label>
+        <label className={styles.helpText} htmlFor="measurements">Convert to: </label>
         {["b", "c"].includes(measurement)
           ? <SubSelect measurement={measurement} changeUnit={changeUnit} unit={unit}/>
           : null

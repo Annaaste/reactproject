@@ -43,7 +43,7 @@ const Convert = () => {
 
   return (
     <div className="container">
-      <div className="header">
+      <div>
         <h1>Conversion</h1>
       </div>
       <form className="Form"  onKeyUp={onSubmit}>
