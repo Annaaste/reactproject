@@ -18,6 +18,7 @@ const SubstituteResult = () => {
         }).map((post, index) => (
           <div className="box" key={index}>
             <p>{post.ingredient}</p>
+            <p>{post.image}</p>
             <p>{post.description}</p>
             <p>{post.substitute}</p>
           </div>
