@@ -21,7 +21,7 @@ const SearchBar = () => {
               <br />
               <h2>{post.ingredient}</h2>
               <br />
-              <img src={post.image} />
+              {/* <img src={post.image} /> */}
               <br />
               <p>{post.description}</p>
               <br />
