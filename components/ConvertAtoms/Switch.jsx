@@ -11,9 +11,8 @@ const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
 
   return (
       <div>
-      <button type="button"  onClick={onSwitch}>
-      <button className={styles.buttonIcon}><img src='../images/icons/switchIcon.svg'></img></button>
-      </button>
+        <button className={styles.buttonIcon} type="button"  onClick={onSwitch}><img src='../images/icons/switchIcon.svg'></img>
+        </button>
       </div> 
       
 
