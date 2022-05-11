@@ -20,8 +20,6 @@ const SubstituteResult = () => {
             <br />
             <h2>{post.ingredient}</h2>
             <br />
-            <p>{post.image}</p>
-            <br />
             <p>{post.description}</p>
             <br />
             <p>{post.substitute}</p>
