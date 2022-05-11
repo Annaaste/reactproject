@@ -1,70 +1,70 @@
 [
   {
     "id": "1",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/buttermilk.svg",
     "ingredient": "Buttermilk",
     "description": "Despite its name and creamy consistency, buttermilk is relatively low in fat. It's sometimes tolerated by people with lactose intolerance since some of the lactose is fermented by bacteria. Most of the buttermilk found in supermarkets is cultured buttermilk, made by adding a bacterial culture to low-fat or nonfat milk. More authentic and tasty, though, is churn buttermilk, which is the liquid that remains after milk is churned into butter. Since recipes often call for just small amounts of buttermilk, many cooks use reconstituted powdered buttermilk.",
     "substitute": "Combine one cup of milk (or soymilk) plus one tablespoon of lemon juice or vinegar, and allow to stand for ten minutes OR Combine one cup of milk plus two teaspoons cream of tartar, and allow to stand for ten minutes OR Combine two parts plain yogurt plus one part milk OR plain, low-fat yogurt OR sour cream OR molasses (in batters that also call for baking soda) "
   },
   {
     "id": "2",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/oliveoil.svg",
     "ingredient": "Olive oil",
     "description": "Varieties: (ranked from highest to lowest quality) extra-virgin, superfine, fine, virgin, and pure",
     "substitute": "Walnut or almond or hazelnut oil (for cold dishes and salads) OR corn or peanut oil (for sauteing) OR cooking spray (for greasing pans) "
   },
   {
     "id": "3",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/redlentils.svg",
     "ingredient": "Red lentil",
     "description": "The most common type of red lentil is the Red Chief.  It's a lovely salmon pink in its dried form, but it turns golden when cooked. These lentils cook faster than others. They're best in purées or soups.",
     "substitute": " Masoor dal OR yellow lentils OR green lentils (These hold their shapes better when cooked.) OR brown lentils"
   },
   {
     "id": "4",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/chipotle.svg",
     "ingredient": "Chipotle",
     "description": "Smaller peppers are usually hotter than larger peppers.Peppers often become hotter as they ripen, and hotter still when they're dried.  Dried peppers tend to have a  richer, more concentrated flavor. To tone down the heat of a pepper, cut it open and remove the seeds and the white ribs. When working with peppers, wear rubber gloves or, in a pinch, coat your hands with vegetable oil.  Wash your hands carefully afterwards. Chiles don't freeze well.",
     "substitute": "(for chipotles in adobo sauce) 1 tablespoon catsup + 1/2 teaspoon liquid smoke + 1 jalapeno pepper OR morita (smaller) OR mora OR ancho (larger and milder)"
   },
   {
     "id": "5",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/lime.svg",
     "ingredient": "Lime",
     "description": "These tart green fruits are similar to lemons, but they're more acidic and have their own unique flavor.  Varieties include the common Persian lime = Tahiti lime and the smaller, less juicy, and more acidic Florida key lime = key lime = Mexican lime. When buying limes, select specimens that are dark green, smaller, thin-skinned, and heavy for their size. Equivalents:  1 lime yields about 2 tablespoons lime juice.",
     "substitute": "Lemon (Lemons have a weaker flavor and are less acidic, so use a bit more to compensate.) OR kalamansi"
   },
   {
     "id": "6",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/eggs.svg",
     "ingredient": "Egg",
     "description": "Comes from chickens and contains protein and fat",
     "substitute": "2 1/2 tablespoons of powdered egg substitute plus 2 1/2 tablespoons water OR 1/4 cup liquid egg substitute OR 1/4 cup silken tofu pureed OR 3 tablespoons mayonnaise OR half a banana mashed with 1/2 teaspoon baking powder OR 1 tablespoon powdered flax seed soaked in 3 tablespoons water"
   },
   {
     "id": "7",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/redwine.svg",
     "ingredient": "Red wine",
     "description": "Red wines are heavier and more strongly flavored than white wines, and they go best with heavier, more strongly flavored foods, like red meat, pasta, and ripe cheeses. They should always be served at room temperature.",
     "substitute": "Madeira OR Port OR pomegranate molasses (Use just a little.) OR cranberry juice OR broth OR balsamic vinegar (Use just a little.) OR currant juice OR liquid used to reconstitute dried mushrooms"
   },
   {
     "id": "8",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/seitan.svg",
     "ingredient": "Seitan",
     "description": "This is a vegetarian meat substitute that's rich in protein, low in fat, and chewy enough to pass for steak or chicken.  It's made by mixing gluten flour or wheat flour with water, kneading it, washing away the starch with water, and then cooking the rubbery gluten that remains in a flavored broth.  The seitan can then be sliced or shaped however you like and then fried, steamed, baked, or added to stews.  Look for packages or tubs of it in the refrigerated sections of Asian markets and health food stores.  You can also buy it in the form of meat-flavored sausage, salami, and deli cuts.  Store seitan in the refrigerator for up to ten days, or for up to six months in the freezer.",
     "substitute": "Textured soy protein OR grilled eggplant OR tempeh OR portobello mushrooms OR atsu-age OR deep-fried tofu"
   },
   {
     "id": "9",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/yoghurt.svg",
     "ingredient": "Yoghurt",
     "description": "This is milk that's cultured with bacteria to make it thick and tangy. Ready-made yogurts are made from whole milk (with up to 4% butterfat), lowfat milk (with up to 2% butterfat), and skim milk (with up to .5% butterfat). Health buffs prefer brands that contain active cultures, which help keep their intestines populated with friendly bacteria.  Many brands are heat-treated to destroy these cultures and increase shelf life. Yogurt often comes with added flavorings and thickeners. 'Light' flavored yogurts are made with artificial sweeteners to reduce calories. Lactaid makes a lactose-reduced yogurt, but many people with lactose intolerance can tolerate ordinary yogurt, especially brands that contains active yogurt cultures. Larger  markets also carry yogurt made from soy milk and goat's milk, but these don't work well in delicate desserts. Organic yogurts also are available.",
     "substitute": "Sour cream (This is higher in fat and calories, but less likely to curdle if boiled with an acidic ingredient.) OR buttermilk (This substitution usually works well in baked goods, dressings, and sauces.) OR blend cottage cheese until smooth (not as tart) OR silky tofu (not as tart; doesn't work well in delicate desserts)"
   },
   {
     "id": "10",
-    "image": "",
+    "image": "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/public/images/subPictures/cinnamon.svg",
     "ingredient": "Cinnamon",
     "description": "One cinnamon stick yields 1/2 teaspoon ground cinnamon. Notes: With its warm, sweet flavor, cinnamon is one of the biggest workhorses on the spice shelf.  Cooks often use it to flavor baked goods and drinks, but cinnamon also works wonders in stews and sauces.  The best cinnamon is Ceylon cinnamon = canela = Sri Lanka cinnamon = true cinnamon.  Indonesian cinnamon has a similar taste, but larger quills. Much of the cinnamon sold in the United States is cassia cinnamon, which isn't as well regarded.",
     "substitute": "Nutmeg OR allspice"
