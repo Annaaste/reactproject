@@ -1,7 +1,7 @@
 import styles from './SearchBar.module.scss'
-import Data from "/Users/Sengangarn/Documents/STI/ReactNy/reactproject/texts/substitutes.json";
+import Data from "../../texts/substitutes.json";
 import { useState } from "react";
-
+import Image from 'next/image'
 const SearchBar = () => {
   const [query, setQuery] = useState("")
 
@@ -21,10 +21,11 @@ const SearchBar = () => {
               <br />
               <h2>{post.ingredient}</h2>
               <br />
-              {/* <img src={post.image} /> */}
+              <Image width={300} height={300} src={post.image} />
               <br />
               <p>{post.description}</p>
               <br />
+              <p className={styles.subHeading}>Substitute:</p>
               <p>{post.substitute}</p>
             </div>
           ))
