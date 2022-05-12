@@ -2,9 +2,8 @@
 import Head from 'next/head'
 import SearchBar from '../../components/SearchBar/SearchBar';
 
-
 import styles from './substitute.module.scss'
-import Image from 'next/image'
+
 
 
 
