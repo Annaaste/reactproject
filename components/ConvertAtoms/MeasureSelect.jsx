@@ -41,22 +41,32 @@ const MeasureSelect = ({measurement, setMeasurement, unit, setUnitA, setUnitB}) 
   }
 
   return (
-    <div> 
+    <div className={styles.choice}>
       <label className={styles.helpText} htmlFor="measurements">Convert from: </label>
-      
-        <select name="measurements" className={styles.input}  id="measurements" onChange={({target}) => onSelectChange(target.value)}>
+
+      <div >
+
+
+        <select name="measurements"  className={styles.choice}   id="measurements" onChange={({target}) => onSelectChange(target.value)}>
         
           <option value="a">?</option>
           <option value="b">LITERS</option>
           <option value="c">KILOGRAMS</option>
         </select>
-        <div>
+        </div>
+
+
+        <div >
         <label className={styles.helpText} htmlFor="measurements">Convert to: </label>
+        </div>
+
         {["b", "c"].includes(measurement)
-          ? <SubSelect measurement={measurement} changeUnit={changeUnit} unit={unit}/>
+          ? <SubSelect  measurement={measurement} changeUnit={changeUnit} unit={unit}/>
           : null
         }
-        </div>
+        
+
+      
     </div>
   )
 }

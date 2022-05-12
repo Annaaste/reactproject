@@ -38,15 +38,15 @@ const Convert = () => {
       ? input * conversionVal 
       : input / conversionVal
 
-    return val
+    return val.toFixed(4)
   }
 
   return (
-    <div className="container">
+    <div className={styles.container}>
       <div>
         <h1>Conversion</h1>
       </div>
-      <form className="Form"  onKeyUp={onSubmit}>
+      <form className={styles.Form}  onKeyUp={onSubmit}>
         <fieldset>
           
           <MeasureSelect 

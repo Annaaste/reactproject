@@ -1,18 +1,35 @@
 @import 'colors.scss';
 
-
-
-
   .buttonIcon {
     height: 40px;
     width: 40px;
+    position: absolute;
+    top: 31%;
+    right: 38%; 
   }
 
   .input {
     height: 48px;
     width: 260px;
-    
-    
+    position: absolute;
+    top: 30%;
+  }
+
+  .output {
+    height: 48px;
+    width: 260px;
+    position: absolute;
+    top: 40%;
+  }
+
+  .choice  {
+    height: 480px;
+    width: 260px;
+  }
+   
+  #measurements  {
+    height: 480px;
+    width: 260px;
   }
 
   .helpText {

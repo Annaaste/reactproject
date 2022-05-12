@@ -1,5 +1,6 @@
-import React from 'react'
 import styles from './ConvertAtoms.module.scss'
+import React from 'react'
+
 
 const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
   const onSwitch = (event) => {
@@ -13,10 +14,7 @@ const Switch = ({unitA, unitB, setUnitA, setUnitB, setOutput}) => {
       <div>
         <button className={styles.buttonIcon} type="button"  onClick={onSwitch}><img src='../images/icons/switchIcon.svg'></img>
         </button>
-      </div> 
-      
-
-
+      </div>
   )
 }
 
