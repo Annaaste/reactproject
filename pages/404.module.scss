@@ -4,7 +4,7 @@
   display: inline-block;
   padding: 2rem;
   text-align: center;
-  background-color: yellow;
+  background-color: pink;
   border-radius: 0.5rem;
 }
 
@@ -13,7 +13,7 @@
   margin-top: 4rem;
   padding: 1.5rem;
   text-decoration: none;
-  background-color: #000;
+  background-color: $headerBlack;
   color: #FFF;
   border-radius: 0.5rem;
 }
