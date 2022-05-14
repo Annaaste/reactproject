@@ -6,7 +6,7 @@
 
 .mediaQueries {
   //Alla storlekar som inte står som någon annan färg under
-  background-color: pink;
+  background-color: blue;
 
   //Över 1100px
   @include mq(1, 1, 1100px) {

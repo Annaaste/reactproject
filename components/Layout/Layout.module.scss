@@ -38,3 +38,7 @@
   background-size: cover;
 }
 
+ .background404 {
+   @extend .surroundingContainer;
+   background: $yellow;
+}
