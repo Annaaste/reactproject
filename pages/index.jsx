@@ -17,8 +17,8 @@ export default function Home() {
         <div className={styles.centerStartPage}>
           <div className={styles.startTextContainer}>
             <p className={styles.welcome}>Welcome to ingrii!</p>
-            <h1 className={styles.frontText}>Your Cooking and Baking<br></br> Recipe Converter</h1>
-            <p className={styles.missionText}>We want to create connections between cultures<br></br> and people, by simplifying for those who love to<br></br> cook and bake.</p>
+            <h1 className={styles.frontText}>Your Cooking and Baking<br/> Recipe Converter</h1>
+            <p className={styles.missionText}>We want to create connections between cultures and people, by simplifying for those who love to cook and bake.</p>
           </div>
       </div>
     </>

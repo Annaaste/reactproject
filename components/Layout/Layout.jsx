@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   const router = useRouter();
   
   return ( 
-    <div  className={router.pathname === "/" && styles.backgroundImageStartPage || router.pathname === "/substitute" && styles.backgroundImageSubstitute || router.pathname === "/convert" && styles.backgroundImageConvert || router.pathname === "/404" && styles.background404 || styles.surroundingContainer}>
+    <div  className={router.pathname === "/" && styles.backgroundImageStartPage || router.pathname === "/substitute" && styles.backgroundImageSubstitute || router.pathname === "/convert" && styles.backgroundImageConvert || styles.surroundingContainer}>
       <Navbar />
         <main className={styles.surroundAllPages}>
           {children}

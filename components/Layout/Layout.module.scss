@@ -16,29 +16,29 @@
   margin: 0 auto;
 }
 
-.backgroundImageStartPage {
+.backgroundImage {
   @extend .surroundingContainer;
-  background: linear-gradient((180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 39.58%),), url('/images/bgStartPage.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
+.backgroundImageStartPage {
+  @extend .backgroundImage;
+  //background: linear-gradient((180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 39.58%)), url('/images/bgStartPage.svg');
+  background: url('/images/bgStartPage.svg');
+
+}
+
+
 .backgroundImageSubstitute {
-  @extend .surroundingContainer;
-  background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55))), url('/images/bgSubstitute.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+  @extend .backgroundImage;
+  background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55))), url('/images/bgSubstitute.svg'); 
 }
 
 .backgroundImageConvert {
-  @extend .surroundingContainer;
+  @extend .backgroundImage;
   background: linear-gradient((0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))), url('/images/bgConvert.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
- .background404 {
-   @extend .surroundingContainer;
-   background: $yellow;
-}
+ 
+
