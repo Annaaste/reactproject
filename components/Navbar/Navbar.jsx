@@ -34,7 +34,7 @@ const Navbar = () => {
         </Link>
       </div>
       {/* Tom p-tagg så att menyn centreras korrekt */ }
-      <p></p>
+      <p className={styles.filling}></p>
     </nav>
   );
 }
