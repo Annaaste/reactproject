@@ -11,12 +11,15 @@
 
 .logo {
   background-color: none;
-  height: 30px;
-  width: 83px;
+  height: 3rem; 
 }
 
 .mainMenu {
   display: flex;
+}
+
+.filling {
+  width: 7.5rem;
 }
 
 .nonActivePage,
