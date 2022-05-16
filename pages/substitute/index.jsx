@@ -18,7 +18,7 @@ const Substitute = () => {
         />
       </Head>
       <div className={styles.backgroundImage}>
-        <h1>Find your Substitute Ingredient</h1>
+        <h1>Your cooking and baking recipe converter</h1>
         <SearchBar />
 
       </div>
