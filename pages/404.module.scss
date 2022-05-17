@@ -1,20 +1,53 @@
 @import 'colors.scss';
 
 .pageNotFound {
-  display: inline-block;
-  padding: 2rem;
   text-align: center;
-  background-color: pink;
-  border-radius: 0.5rem;
   height: 100%;
+}
+
+.headline {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  padding-top: 5rem;
+
+  @include mq(900px) {
+    font-size: 4rem;
+  }
+
+  @include mq(600px) {
+    font-size: 3rem;
+  }
+}
+
+.notFound {
+  font-size: 70rem;
+  font-weight: 700;
+  line-height: 50rem; 
+  color: $headerBlack;
+
+  @include mq(1600px) {
+    font-size: 60rem;
+  }
+
+  @include mq(900px) {
+    font-size: 40rem;
+  }
+
+  @include mq(600px) {
+    font-size: 20rem;
+  }
 }
 
 .goToHomePage {
   display: inline-block;
   margin-top: 4rem;
-  padding: 1.5rem;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
   text-decoration: none;
+  text-transform: uppercase;
   background-color: $headerBlack;
   color: #FFF;
   border-radius: 0.5rem;
 }
+
