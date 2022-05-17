@@ -6,6 +6,10 @@
   align-items: flex-end;
   padding: 0.5rem 3rem;
   background-color: $yellow;
+
+  @include mq(600px) {
+    display: none;
+  }
 }
 
 .footerMail {
@@ -21,8 +25,7 @@
 }  
 
 .logo {
-  height: 30px;
-  width: 83px;
+  height: 3rem;
 }
 
 .color2 {
