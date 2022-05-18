@@ -10,6 +10,7 @@
   font-size: 4.8rem;
   line-height: 5.6rem;
   padding-top: 5rem;
+  color: $headerBlack;
 
   @include mq(900px) {
     font-size: 4rem;
@@ -27,15 +28,15 @@
   color: $headerBlack;
 
   @include mq(1600px) {
-    font-size: 60rem;
+    font-size: 45rem;
   }
 
   @include mq(900px) {
-    font-size: 40rem;
+    font-size: 25rem;
   }
 
   @include mq(600px) {
-    font-size: 20rem;
+    font-size: 15rem;
   }
 }
 
