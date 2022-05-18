@@ -43,11 +43,11 @@ const Convert = () => {
 
   return (
     <div className={styles.container}>
-      <div>
-        <h1>Conversion</h1>
-      </div>
-      <form className={styles.Form}  onKeyUp={onSubmit}>
-        <fieldset>
+
+        <h1 className={styles.convertHeader}>Convert your measurment and get a taste of the world</h1>
+
+      <form className={styles.convertForm}  onKeyUp={onSubmit}>
+        <fieldset className={styles.convertFieldset}>
           
           <MeasureSelect 
             measurement={measurement}
@@ -55,14 +55,14 @@ const Convert = () => {
             unit={unitB.symbol}
             setUnitA={setUnitA}
             setUnitB={setUnitB}/>
-
+{/*
           <Switch 
             unitA={unitA} 
             unitB={unitB} 
             setUnitA={setUnitA} 
             setUnitB={setUnitB} 
             setOutput={setOutput}/>
-
+*/}
           <Input
             unitA={unitA}
             unitB={unitB}
