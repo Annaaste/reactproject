@@ -6,11 +6,19 @@
   align-items: center;
   padding: 1rem 2rem;
   background-color:  $yellow;
+
+  @include mq(600px) {
+    padding-right: 0;
+  }
 }
 
 .logo {
   background-color: none;
   height: 3rem; 
+
+  @include mq(600px) {
+    height: 2.5rem;
+  }
 }
 
 .mainMenu {
@@ -19,6 +27,10 @@
 
 .filling {
   width: 7.5rem;
+
+  @include mq(600px) {
+    display: none;
+  }
 }
 
 .nonActivePage,
@@ -32,6 +44,10 @@
   padding: 0.9rem 1.5rem;
   font-size: 2rem;
   font-weight: 700;
+
+  @include mq(600px) {
+    font-size: 1.5rem;
+  }
 }
 
 .activePage {
