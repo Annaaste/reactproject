@@ -7,29 +7,32 @@ const SearchBar = () => {
 
   return (
     <div className={styles.searchBarContainer}>
-      <div className={styles.searchInput}>
-        <input className={styles.input} type="text" placeholder="Find your substitute ingredient" onChange={event => setQuery(event.target.value)} />
+      <div className={styles.searchBarBox}>
+        <div className={styles.searchInput}>
+          <input className={styles.input} type="text" placeholder="Find your substitute ingredient" onChange={event => setQuery(event.target.value)} />
+        </div>
+        <div className={styles.searchButton}>
+          <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
+        </div>
+      </div>
         {
           Data.filter(post => {
             if (query === '') {
               return null;
-            } else if (post.ingredient.toLowerCase().includes(query.toLowerCase())) {
+            } else if (post.ingredient.toLowerCase().startsWith(query.toLowerCase())) {
               return post;
             }
           }).map((post, index) => (
-            <div className="box" key={index}>
-              <br />
-              <h2>{post.ingredient}</h2>
-              <br />
+            <div className={styles.showResults} key={index}>
+              <h2 className={styles.searchResultHeader}>{post.ingredient}</h2>
               <Image width={300} height={300} src={post.image} />
-              <br />
-              <p>{post.description}</p>
-              <br />
-              <p className={styles.subHeading}>Substitute:</p>
-              <p>{post.substitute}</p>
+              <p className={styles.searchResultDescription}>{post.description}</p>
+              <p className={styles.searchResultSubHeading}>Substitute</p>
+              <p className={styles.searchResultSubstitute}>{post.substitute}</p>
             </div>
           ))
         }
+        {/*
         <div className={styles.autocomBox}>
           <li>Buttermilk</li>
           <li>Chipotle</li>
@@ -41,11 +44,9 @@ const SearchBar = () => {
           <li>Yoghurt</li>
           <li>Cinnamon</li>
         </div>
-        <div className={styles.searchButton}>
-          <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
-        </div>
-      </div>
-    </div >
+        */}
+    </div>
+
   );
 }
 

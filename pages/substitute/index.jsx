@@ -16,13 +16,8 @@ const Substitute = () => {
           content="Här står det info som kan synas på Google om just den här sidan"
         />
       </Head>
-      <div className={styles.backgroundImage}>
-        <h1 className={styles.heading}>Your cooking and baking recipe converter</h1>
-        <div className={styles.searchBarTag}>
-          <SearchBar />
-        </div>
-      </div>
-
+      <h1 className={styles.heading}>Your cooking and baking recipe converter</h1>
+      <SearchBar />
     </>
   )
 }
