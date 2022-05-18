@@ -1,4 +1,5 @@
 export default function handler(req, res) {
-
-  res.status(200).json({ message: 'Substitute found' })
+  switch (req.method) {
+  }
+  //res.status(200).json({ message: 'Substitute found' })
 }
