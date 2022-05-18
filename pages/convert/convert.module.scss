@@ -1,1 +1,18 @@
 @import 'colors.scss';
+
+.convertHeader {
+  max-width: 60rem;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.convertFieldset {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+
+  @include mq(500px) {
+    flex-direction: column;
+  }
+}

@@ -1,35 +1,43 @@
 @import 'colors.scss';
 
+/*
   .buttonIcon {
     height: 40px;
     width: 40px;
-    position: absolute;
-    top: 31%;
-    right: 38%; 
+  }
+*/
+
+  .convertInput,
+  .convertOutput {
+    height: 4rem;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+
+    
   }
 
-  .input {
-    height: 48px;
-    width: 260px;
-    position: absolute;
-    top: 30%;
+  .choice {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border-radius: 0.5rem;
+
+    @include mq(500px) {
+      width: 18rem;
+      align-self: center;
+    }
   }
 
-  .output {
-    height: 48px;
-    width: 260px;
-    position: absolute;
-    top: 40%;
-  }
-
-  .choice  {
-    height: 480px;
-    width: 260px;
+  .optionBox {
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
   }
    
   #measurements  {
-    height: 480px;
-    width: 260px;
+    //height: 480px;
+    //width: 260px;
+    background-color: #3380ff;
   }
 
   .helpText {
