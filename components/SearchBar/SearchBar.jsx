@@ -8,7 +8,7 @@ const SearchBar = () => {
   return (
     <div className={styles.searchBarContainer}>
       <div className={styles.searchInput}>
-        <input className={styles.input} type="text" placeholder="Write your ingredient" onChange={event => setQuery(event.target.value)} />
+        <input className={styles.input} type="text" placeholder="Find your substitute ingredient" onChange={event => setQuery(event.target.value)} />
         {
           Data.filter(post => {
             if (query === '') {
