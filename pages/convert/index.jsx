@@ -9,9 +9,10 @@ const Convert = () => {
 
   function button() {
     if (IN.value <= 0)
-      return (OUT.value = "N/A");
+      return (OUT.value = "0");
   
     if (selectIN.value == 'a') {
+
       if (selectOUT.value == 'a')    
         return (OUT.value = IN.value);
   
@@ -20,8 +21,1820 @@ const Convert = () => {
   
       else if (selectOUT.value == 'c')
         return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
   
+    }
+
+
+    if (selectIN.value == 'b') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
   
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'c') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'd') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'e') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+
+    if (selectIN.value == 'f') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'g') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'h') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+
+    if (selectIN.value == 'i') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'j') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'k') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'l') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'm') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'n') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'o') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'p') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'q') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'r') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 's') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 't') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'u') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'v') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'w') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
+  
+    }
+
+    if (selectIN.value == 'x') {
+      
+      if (selectOUT.value == 'a')    
+        return (OUT.value = IN.value * 12112);
+  
+      else if (selectOUT.value == 'b')
+        return  (OUT.value = IN.value);
+  
+      else if (selectOUT.value == 'c')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'd')
+        return  (OUT.value = IN.value * 100000);
+      
+      else if (selectOUT.value == 'e')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'f')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'g')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'h')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'i')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'j')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'k')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'l')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'm')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'n')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'o')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'p')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'q')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'r')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 's')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 't')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'u')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'v')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'w')
+        return  (OUT.value = IN.value * 100000);
+
+      else if (selectOUT.value == 'x')
+        return  (OUT.value = IN.value * 100000);
   
     }
   }
