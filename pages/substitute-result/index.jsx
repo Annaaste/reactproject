@@ -1,12 +1,33 @@
+import { firestore } from '../../utils/firebase';
 import styles from './substitute-result.module.scss'
 
 
-const SubstituteResult = () => {
+export default function SubstituteResult({ ingredients }) {
 
   return (
     <div className={styles.resultContainer}>
-      <input placeholder="Enter ingredient" />
+      <h2>Hello</h2>
+
     </div>
   );
 }
-export default SubstituteResult;
+
+//server side code
+export async function getServerSideProps() {
+
+  const snapshots = await firestore.collection('ingredients').get()
+  const ingredients = snapshots.docs.map((doc) => {
+    return {
+      id: doc.id,
+      ...doc.data(),
+    }
+  })
+
+  console.log(ingredients)
+
+  return {
+    props: {
+      ingredients: ingredients
+    }
+  }
+}
