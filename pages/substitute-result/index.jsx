@@ -3,11 +3,10 @@ import styles from './substitute-result.module.scss'
 
 
 export default function SubstituteResult({ ingredients }) {
-
+  console.log(ingredients)
   return (
     <div className={styles.resultContainer}>
       <h2>Hello</h2>
-
     </div>
   );
 }
@@ -22,8 +21,6 @@ export async function getServerSideProps() {
       ...doc.data(),
     }
   })
-
-  console.log(ingredients)
 
   return {
     props: {
