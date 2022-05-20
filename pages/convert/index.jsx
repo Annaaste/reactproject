@@ -11,13 +11,15 @@ return (
 
       <h1 className={styles.convertHeader}>Convert your measurment and get a taste of the world</h1>
 
-    <form className={styles.convertForm}>
-      <fieldset className={styles.convertFieldset}>
+    <div className={styles.convertForm}>
+      {/* <fieldset className={styles.convertFieldset}> */}
         
-        <Select/>
+        <Select
+        
+        />
 
-      </fieldset>
-    </form>
+      {/* </fieldset> */}
+    </div>
   </div>
 )
 }

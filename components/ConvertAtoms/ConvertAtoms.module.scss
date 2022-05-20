@@ -1,45 +1,33 @@
 @import 'colors.scss';
 
-/*
-  .buttonIcon {
-    height: 40px;
-    width: 40px;
-  }
-*/
-
-  .convertInput,
-  .convertOutput {
-    height: 4rem;
-    padding-left: 1rem;
-    border-radius: 0.5rem;
-
-    
-  }
-
-  .choice {
+ .selectOUT, .selectIN  {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     row-gap: 2rem;
+    width: 26rem;
+    height: 5.45rem;
+    background-color:$white;
     border-radius: 0.5rem;
+    padding-left: 1rem; 
 
     @include mq(500px) {
       width: 18rem;
       align-self: center;
     }
-  }
+ }
 
-  .optionBox {
-    height: 4.5rem;
-    border-radius: 0.5rem;
-    padding-left: 1rem;
-  }
-   
-  #measurements  {
-    //height: 480px;
-    //width: 260px;
-    background-color: #3380ff;
-  }
+ .INPUT, .OUTPUT  {
+  display: flex;
+  flex-direction: row;
+  row-gap: 2rem;
+  width: 26rem;
+  height: 4.8rem;
+  background-color:$white;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
 
-  .helpText {
-    color: $yellow;
+  @include mq(500px) {
+    width: 18rem;
+    align-self: center;
   }
+}
