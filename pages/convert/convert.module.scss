@@ -14,7 +14,7 @@
   gap: 3rem;
   padding: 2rem;
   height: 48px;
-
+  
   @include mq(500px) {
     flex-direction: column;
   }
