@@ -1842,8 +1842,8 @@ const Select = () => {
   return (
   <>
    
-    <input id={"IN"}/* value={0} */ type="number" min="0" step="any"/>
-      <select id={"selectIN"} name="fromUnit">
+    <input className={styles.IN} /* id={"IN"} *//* value={0} */ type="number" min="0" step="any"/>
+      <select className={styles.selectIN} /* id={"selectIN"} */ name="fromUnit">
         <option value="a">Cups US</option>
         <option value="b">Cups Metric</option>
         <option value="c">Cups Imperial</option>
@@ -1872,8 +1872,8 @@ const Select = () => {
       
       
       
-    <input id={"OUT"} type="number" readonly/>
-      <select id={"selectOUT"} name="fromUnit">
+    <input className={styles.OUT} /* id={"OUT"} */ type="number" readonly/>
+      <select className={styles.selectOUT} /* id={"selectOUT"} */ name="fromUnit">
         <option value="a">Cups US</option>
         <option value="b">Cups Metric</option>
         <option value="c">Cups Imperial</option>
