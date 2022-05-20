@@ -1,11 +1,12 @@
 @import 'colors.scss';
 
- .convertHeader {
+.convertHeader {
   max-width: 60rem;
   margin: 5rem auto;
   text-align: center;
-  color: $yellow;
+  color: $darkBlack;
 }
+
 /*
 .convertFieldset {
   display: flex;
@@ -19,16 +20,16 @@
   }
 }
 */
- .convertForm {
+.convertForm {
   display: flex;
   justify-content: center;
- box-sizing: 48px;
- 
+  box-sizing: 48px;
+
   gap: 3rem;
   padding: 2rem;
-  
+
 
   @include mq(500px) {
     flex-direction: column;
   }
-}  
+}
