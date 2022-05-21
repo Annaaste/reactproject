@@ -6,22 +6,22 @@ import Select from '../../components/ConvertAtoms/Select'
 
 const Convert = () => {
 
-return (
-  <div className={styles.container}>
+  return (
+    <div className={styles.container}>
 
-      <h1 className={styles.convertHeader}>Convert your measurment and get a taste of the world</h1>
+      <h1 className={styles.convertHeader}>Convert. Cook. Connect.</h1>
 
-    <div className={styles.convertForm}>
-      {/* <fieldset className={styles.convertFieldset}> */}
-        
+      <div className={styles.convertForm}>
+        {/* <fieldset className={styles.convertFieldset}> */}
+
         <Select
-        
+
         />
 
-      {/* </fieldset> */}
+        {/* </fieldset> */}
+      </div>
     </div>
-  </div>
-)
+  )
 }
 
 export default Convert;
