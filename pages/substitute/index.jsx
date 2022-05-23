@@ -16,7 +16,7 @@ const Substitute = () => {
           content="Här står det info som kan synas på Google om just den här sidan"
         />
       </Head>
-      <h1 className={styles.heading}>Substitute. Experience. Enjoy.</h1>
+      <h1 className={styles.heading}>Substitute. <br/> Experience. Enjoy.</h1>
       <SearchBar />
     </>
   )

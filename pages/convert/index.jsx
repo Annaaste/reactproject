@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styles from './convert.module.scss'
-import Image from 'next/image'
 import Select from '../../components/ConvertAtoms/Select'
 
 
@@ -9,7 +8,7 @@ const Convert = () => {
   return (
     <div className={styles.container}>
 
-      <h1 className={styles.convertHeader}>Convert. Cook. Connect.</h1>
+      <h1 className={styles.convertHeader}>Convert. <br/> Cook. Connect.</h1>
 
       <div className={styles.convertForm}>
         {/* <fieldset className={styles.convertFieldset}> */}
