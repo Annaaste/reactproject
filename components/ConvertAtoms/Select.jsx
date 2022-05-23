@@ -1383,7 +1383,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 's') { //2.27tblsp.US
+      if (selectIN.value == 's') { //OK2.27tblsp.US
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.06);
@@ -1431,31 +1431,31 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.03);
   
         else if (selectOUT.value == 'p')
-          return  (OUT.value = IN.value * 0); //<--
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'q')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.01);
   
         else if (selectOUT.value == 'r')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.02);
   
         else if (selectOUT.value == 's')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value);
   
         else if (selectOUT.value == 't')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.99);
   
         else if (selectOUT.value == 'u')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.83);
   
         else if (selectOUT.value == 'v')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 3);
   
         else if (selectOUT.value == 'w')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 2.96);
   
         else if (selectOUT.value == 'x')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 2.5);
     
       }
   
