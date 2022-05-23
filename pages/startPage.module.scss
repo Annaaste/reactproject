@@ -1,5 +1,11 @@
 @import 'colors.scss';
 
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
 .clickAlternative {
   background-color: $darkBlack;
   color: $yellow;
@@ -12,13 +18,10 @@
 }
 
 .centerStartPage {
-  //background-color: pink;
-  padding: 25rem;
-
+  margin: 10rem auto 5rem auto;
 }
 
 .startTextContainer {
-  //background-color: aqua;
   max-width: 70rem;
   text-align: center;
   margin: auto;

@@ -11,14 +11,13 @@
   //Gör så att footern alltid hamnar längst ner
   flex: 1;
   //Lika mycket padding till alla sidor
-  padding: 2rem;
+  //padding: 2rem;
   //Lägger innehållet i mitten av sidan (utan att centrera texten)
   margin: 0 auto;
 }
 
 .backgroundImageStartPage {
   @extend .surroundingContainer;
-  //background: linear-gradient((180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 39.58%)), url('/images/bgStartPage.svg');
   background: url('/images/bgStartPage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
