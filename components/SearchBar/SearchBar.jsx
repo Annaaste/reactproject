@@ -15,24 +15,26 @@ const SearchBar = () => {
           <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
         </div>
       </div>
-        {
-          Data.filter(post => {
-            if (query === '') {
-              return null;
-            } else if (post.ingredient.toLowerCase().startsWith(query.toLowerCase())) {
-              return post;
-            }
-          }).map((post, index) => (
-            <div className={styles.showResults} key={index}>
-              <h2 className={styles.searchResultHeader}>{post.ingredient}</h2>
-              <Image width={300} height={300} src={post.image} />
-              <p className={styles.searchResultDescription}>{post.description}</p>
-              <p className={styles.searchResultSubHeading}>Substitute</p>
-              <p className={styles.searchResultSubstitute}>{post.substitute}</p>
-            </div>
-          ))
+
+      {Data.filter(post => {
+        if (query === '') {
+          return null;
+        } else if (post.ingredient.toLowerCase().startsWith(query.toLowerCase())) {
+          return post;
         }
-        {/*
+      }).map((post, index) => (
+        <div className={styles.showResults} key={index}>
+          <h2 className={styles.searchResultHeader}>{post.ingredient}</h2>
+          <Image width={300} height={300} src={post.image} />
+          <p className={styles.searchResultSubHeading}>Substitute</p>
+          <p className={styles.searchResultSubstitute}>{post.substitute}</p>
+          <p className={styles.searchResultSubHeading}>Description</p>
+          <p className={styles.searchResultDescription}>{post.description}</p>
+
+        </div>
+      ))
+      }
+      {
         <div className={styles.autocomBox}>
           <li>Buttermilk</li>
           <li>Chipotle</li>
@@ -44,7 +46,7 @@ const SearchBar = () => {
           <li>Yoghurt</li>
           <li>Cinnamon</li>
         </div>
-        */}
+      }
     </div>
 
   );

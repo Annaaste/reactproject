@@ -50,16 +50,17 @@
   }
 }
 
+.nonActivePage:hover {
+  background: $lightYellow;
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+
 .activePage {
-  background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)));
-  background-color: #73E5EC;
-  color: $white;
+  background-color: #EFF2F9;
   border-radius: 0.7rem 0.7rem 0 0;
 }
 
 .activePage2 {
-  background: linear-gradient((0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)));
-  background-color: #e1d23c;
-  color: $white;
+  background-color: #E2E6E9;
   border-radius: 0.7rem 0.7rem 0 0;
 }
