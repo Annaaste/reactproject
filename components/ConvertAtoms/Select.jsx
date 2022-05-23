@@ -1383,7 +1383,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 's') {
+      if (selectIN.value == 's') { //2.27tblsp.US
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
