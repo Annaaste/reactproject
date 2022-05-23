@@ -394,7 +394,7 @@ const Select = () => {
       }
   
   
-      if (selectIN.value == 'f') { //fl.oz US
+      if (selectIN.value == 'f') { // OK fl.oz US
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.13);
@@ -470,7 +470,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'g') {
+      if (selectIN.value == 'g') { //Gallons UK 2.14
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
