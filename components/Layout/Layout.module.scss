@@ -11,35 +11,76 @@
   //Gör så att footern alltid hamnar längst ner
   flex: 1;
   //Lika mycket padding till alla sidor
-  padding: 2rem;
+  //padding: 2rem;
   //Lägger innehållet i mitten av sidan (utan att centrera texten)
   margin: 0 auto;
 }
 
 .backgroundImageStartPage {
   @extend .surroundingContainer;
-  //background: linear-gradient((180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 39.58%)), url('/images/bgStartPage.svg');
-  background: url('/images/bgStartPage.svg');
+  background: url('/images/bgStartPage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @include mq(900px) {
+    background: url('/images/bgStartPageTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @include mq(600px) {
+    background: url('/images/bgStartPageMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 
 .backgroundImageSubstitute {
   @extend .surroundingContainer;
-  background: linear-gradient((0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55))), url('/images/bgSubstitute.jpg'); 
+  background: url('/images/bgSubstitute.jpg'); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @include mq(900px) {
+    background: url('/images/bgSubstituteTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @include mq(600px) {
+    background: url('/images/bgSubstituteMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 .backgroundImageConvert {
   @extend .surroundingContainer;
-  background: linear-gradient((0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))), url('/images/bgConvert.svg');
+  background: url('/images/bgConvert.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @include mq(900px) {
+    background: url('/images/bgConvertTablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @include mq(600px) {
+    background: url('/images/bgConvertMobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
 }
 
