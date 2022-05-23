@@ -1386,52 +1386,52 @@ const Select = () => {
       if (selectIN.value == 's') { //2.27tblsp.US
         
         if (selectOUT.value == 'a')    
-          return (OUT.value = IN.value * 12112);
+          return (OUT.value = IN.value * 0.06);
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 0.06);
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.05);
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.15);
         
         else if (selectOUT.value == 'e')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.52);
   
         else if (selectOUT.value == 'f')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.5);
   
         else if (selectOUT.value == 'g')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.003);
   
         else if (selectOUT.value == 'h')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.004);
   
         else if (selectOUT.value == 'i')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'j')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'k')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.01);
   
         else if (selectOUT.value == 'l')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 14.79);
   
         else if (selectOUT.value == 'm')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'n')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.03);
   
         else if (selectOUT.value == 'o')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.03);
   
         else if (selectOUT.value == 'p')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0); //<--
   
         else if (selectOUT.value == 'q')
           return  (OUT.value = IN.value * 100000);
