@@ -2,6 +2,7 @@ import styles from './SearchBar.module.scss'
 import Data from "../../texts/substitutes.json";
 import { useState } from "react";
 import Image from 'next/image'
+import Link from 'next/link';
 const SearchBar = () => {
   const [query, setQuery] = useState("")
 
@@ -12,7 +13,9 @@ const SearchBar = () => {
           <input className={styles.input} type="text" placeholder="Find your substitute ingredient" onChange={event => setQuery(event.target.value)} />
         </div>
         <div className={styles.searchButton}>
-          <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
+          <Link href='/substitute-result'>
+            <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
+          </Link>
         </div>
       </div>
 
