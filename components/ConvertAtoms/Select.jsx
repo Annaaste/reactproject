@@ -1231,7 +1231,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'q') {
+      if (selectIN.value == 'q') { //2.25quartzUK
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
