@@ -775,7 +775,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'k') {
+      if (selectIN.value == 'k') { Liters//2.18
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
