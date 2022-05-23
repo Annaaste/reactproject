@@ -1459,7 +1459,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 't') {
+      if (selectIN.value == 't') { //V2.28tblMetric
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
