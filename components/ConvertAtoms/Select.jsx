@@ -927,7 +927,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'm') { //OK.oz
+      if (selectIN.value == 'm') { //OK.oz2.20
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0);
@@ -1003,7 +1003,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'n') { //OKpintsUK
+      if (selectIN.value == 'n') { //OKpintsUK2.21
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 2.4);
