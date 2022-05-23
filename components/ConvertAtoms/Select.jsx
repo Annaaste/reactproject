@@ -1462,16 +1462,16 @@ const Select = () => {
       if (selectIN.value == 't') { //V2.28tblMetric
         
         if (selectOUT.value == 'a')    
-          return (OUT.value = IN.value * 12112);
+          return (OUT.value = IN.value * 0.06);
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 0.06);
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.05);
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.15); //<--
         
         else if (selectOUT.value == 'e')
           return  (OUT.value = IN.value * 100000);
