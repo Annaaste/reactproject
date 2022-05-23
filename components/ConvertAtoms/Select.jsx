@@ -1003,7 +1003,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'n') {
+      if (selectIN.value == 'n') { //pintsUK
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
