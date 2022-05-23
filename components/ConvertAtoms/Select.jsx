@@ -15,6 +15,7 @@ const Select = () => {
   
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value);
+          /* return alert(OUT.value = IN.value + " selectOUT.value"); */
     
         else if (selectOUT.value == 'b')
           return  (OUT.value = IN.value * 0.95);
@@ -316,7 +317,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'e') { //fluid oz UK
+      if (selectIN.value == 'e') { //OK fluid oz UK
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.12);
@@ -393,7 +394,7 @@ const Select = () => {
       }
   
   
-      if (selectIN.value == 'f') {
+      if (selectIN.value == 'f') { //fl.oz US
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
