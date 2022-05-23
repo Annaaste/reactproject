@@ -927,7 +927,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'm') { //oz2.2
+      if (selectIN.value == 'm') { //oz.start
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
