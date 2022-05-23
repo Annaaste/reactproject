@@ -4,13 +4,30 @@
   max-width: 60rem;
   margin: 5rem auto;
   text-align: center;
+  color: $darkBlack;
 }
 
+/*
 .convertFieldset {
   display: flex;
   justify-content: center;
   gap: 3rem;
   padding: 2rem;
+  height: 48px;
+  
+  @include mq(500px) {
+    flex-direction: column;
+  }
+}
+*/
+.convertForm {
+  display: flex;
+  justify-content: center;
+  box-sizing: 48px;
+
+  gap: 3rem;
+  padding: 2rem;
+
 
   @include mq(500px) {
     flex-direction: column;

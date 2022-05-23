@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from './startPage.module.scss'
+import Image from 'next/image'
+import arrow from '../public/images/arrow.svg'
 
 export default function Home() {
   return (
@@ -11,6 +13,14 @@ export default function Home() {
           content="Här står det info som kan synas på Google om just den här sidan"
         />
       </Head>
+      <div className={styles.imageWrapper}>
+        <Image 
+          src={arrow}
+          alt={"pointing arrow"}
+          width={20}
+          height={20}
+        />
+      </div>
       <div className={styles.clickAlternative}>
           <p>Click one of the alternatives above to start!</p>
       </div>

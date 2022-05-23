@@ -22,9 +22,7 @@ const Footer = () => {
           hello@ingrii.com
         </a>
       </div>
-      <p className={styles.color2}>©2022 <Link href="/about">
-          Länk annan sida
-        </Link></p>
+      <p className={styles.color2}>©2022 Group 2 STI</p>
     </footer>
    );
 }
