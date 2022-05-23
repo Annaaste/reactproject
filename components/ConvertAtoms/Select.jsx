@@ -546,7 +546,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'h') {
+      if (selectIN.value == 'h') { //GallonsUS
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
