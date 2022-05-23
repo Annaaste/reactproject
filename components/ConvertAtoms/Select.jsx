@@ -1079,7 +1079,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'o') {
+      if (selectIN.value == 'o') { //V2.22 PintsUS
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
