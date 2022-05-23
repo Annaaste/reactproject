@@ -699,7 +699,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'j') { //kilograms2.17
+      if (selectIN.value == 'j') { //OKkilograms2.17
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0);
