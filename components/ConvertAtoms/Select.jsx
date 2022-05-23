@@ -851,7 +851,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'l') { //OKmilliliters
+      if (selectIN.value == 'l') { //OKmilliliters2.19
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.004);
