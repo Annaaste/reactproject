@@ -1307,79 +1307,79 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'r') {
+      if (selectIN.value == 'r') { //OK2.26quartzUS
         
         if (selectOUT.value == 'a')    
-          return (OUT.value = IN.value * 12112);
+          return (OUT.value = IN.value * 4);
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 3.79);
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 3.33);
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 9.46);
         
         else if (selectOUT.value == 'e')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 33.31);
   
         else if (selectOUT.value == 'f')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 32);
   
         else if (selectOUT.value == 'g')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.21);
   
         else if (selectOUT.value == 'h')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.25);
   
         else if (selectOUT.value == 'i')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'j')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'k')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.95);
   
         else if (selectOUT.value == 'l')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 946.35);
   
         else if (selectOUT.value == 'm')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'n')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 1.67);
   
         else if (selectOUT.value == 'o')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 2);
   
         else if (selectOUT.value == 'p')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'q')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.83);
   
         else if (selectOUT.value == 'r')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value);
   
         else if (selectOUT.value == 's')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 64);
   
         else if (selectOUT.value == 't')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 63.09);
   
         else if (selectOUT.value == 'u')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 53.29);
   
         else if (selectOUT.value == 'v')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 192);
   
         else if (selectOUT.value == 'w')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 189.27);
   
         else if (selectOUT.value == 'x')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 159.87);
     
       }
   
