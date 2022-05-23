@@ -1082,16 +1082,16 @@ const Select = () => {
       if (selectIN.value == 'o') { //2.23pintsUS
         
         if (selectOUT.value == 'a')    
-          return (OUT.value = IN.value * 12112);
+          return (OUT.value = IN.value * 2);
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1.89);
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 1.67);
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 4.73); //<-
         
         else if (selectOUT.value == 'e')
           return  (OUT.value = IN.value * 100000);
