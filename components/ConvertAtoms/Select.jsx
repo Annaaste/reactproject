@@ -1310,28 +1310,28 @@ const Select = () => {
       if (selectIN.value == 'r') { //2.26quartzUS
         
         if (selectOUT.value == 'a')    
-          return (OUT.value = IN.value * 12112);
+          return (OUT.value = IN.value * 4);
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 3.79);
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 3.33);
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 9.46);
         
         else if (selectOUT.value == 'e')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 33.31);
   
         else if (selectOUT.value == 'f')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 32);
   
         else if (selectOUT.value == 'g')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.21);
   
         else if (selectOUT.value == 'h')
-          return  (OUT.value = IN.value * 100000);
+          return  (OUT.value = IN.value * 0.25); //
   
         else if (selectOUT.value == 'i')
           return  (OUT.value = IN.value * 100000);
