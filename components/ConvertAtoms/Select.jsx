@@ -1763,7 +1763,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'x') {
+      if (selectIN.value == 'x') { //2.32tblImp
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
