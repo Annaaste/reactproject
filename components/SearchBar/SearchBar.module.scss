@@ -46,7 +46,7 @@
 }
 
 .searchButton:hover {
-  background: $easterYellow;
+  background: $lightYellow;
 }
 
 .showResults {
@@ -61,9 +61,17 @@
   margin: 1rem 0 2rem 0;
 }
 
+.textImageFlex .substituteBox {
+  display: inline-flex;
+}
+
 .searchResultDescription {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.linetag {
+  color: $mediumGrey;
 }
 
 .searchResultSubHeading {
