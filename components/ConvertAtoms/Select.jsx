@@ -1687,7 +1687,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'w') {
+      if (selectIN.value == 'w') { //2.31teasp.Met
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
