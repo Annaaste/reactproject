@@ -16,7 +16,6 @@ export default function Home() {
       <div className={styles.imageWrapper}>
         <Image 
           src={arrow}
-          alt={"pointing arrow"}
           width={20}
           height={20}
         />
