@@ -1,6 +1,6 @@
 @import 'colors.scss';
 
- .selectOUT, .selectIN  {
+ /*.selectOUT, .selectIN  {
     display: flex;
     flex-direction: row;
     row-gap: 2rem;
@@ -29,5 +29,30 @@
   @include mq(500px) {
     width: 18rem;
     align-self: center;
+  }*/
+
+.selectOUT, .selectIN {
+  display: flex;
+  flex-direction: column;  
+  height: 5rem;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: $lightYellow;
+  border: 0rem;
+}
+
+.INPUT, .OUTPUT {
+  height: 4.5rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  border: 0.2rem solid;
+  border-color: $lightGrey;
+
+  @include mq(500px) {
+    width: 18rem;
+    align-self: center;
   }
 }
+
+
+

@@ -23,13 +23,11 @@
 .convertForm {
   display: flex;
   justify-content: center;
-  box-sizing: 48px;
-
+  flex-wrap: wrap;
+  max-width:40rem;
+  background-color: aqua;
   gap: 3rem;
   padding: 2rem;
 
-
-  @include mq(500px) {
-    flex-direction: column;
-  }
+ 
 }
