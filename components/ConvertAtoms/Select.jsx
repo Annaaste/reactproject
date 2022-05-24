@@ -168,76 +168,76 @@ const Select = () => {
       if (selectIN.value == 'c') {
         
         if (selectOUT.value == 'a')    
-          return (OUT.value = IN.value * 1.2);
+          return (OUT.value = (IN.value * 1.2).toFixed(2));
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = IN.value * 1.14);
+          return  (OUT.value = (IN.value * 1.14).toFixed(2));
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value * 1);
+          return  (OUT.value = (IN.value * 1).toFixed(2));
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value * 2.84);
+          return  (OUT.value = (IN.value * 2.84).toFixed(2));
         
         else if (selectOUT.value == 'e')
-          return  (OUT.value = IN.value * 10);
+          return  (OUT.value = (IN.value * 10).toFixed(2));
   
         else if (selectOUT.value == 'f')
-          return  (OUT.value = IN.value * 9.61);
+          return  (OUT.value = (IN.value * 9.61).toFixed(2));
   
         else if (selectOUT.value == 'g')
-          return  (OUT.value = IN.value * 0.06);
+          return  (OUT.value = (IN.value * 0.06).toFixed(2));
   
         else if (selectOUT.value == 'h')
-          return  (OUT.value = IN.value * 0.08);
+          return  (OUT.value = (IN.value * 0.08).toFixed(2));
   
         else if (selectOUT.value == 'i')
-          return  (OUT.value = IN.value * 0);
+          return  (OUT.value = (IN.value * 0).toFixed(2));
   
         else if (selectOUT.value == 'j')
-          return  (OUT.value = IN.value * 0);
+          return  (OUT.value = (IN.value * 0).toFixed(2));
   
         else if (selectOUT.value == 'k')
-          return  (OUT.value = IN.value * 0.28);
+          return  (OUT.value = (IN.value * 0.28).toFixed(2));
   
         else if (selectOUT.value == 'l')
-          return  (OUT.value = IN.value * 284.13);
+          return  (OUT.value = (IN.value * 284.13).toFixed(2));
   
         else if (selectOUT.value == 'm')
-          return  (OUT.value = IN.value * 0);
+          return  (OUT.value = (IN.value * 0).toFixed(2));
   
         else if (selectOUT.value == 'n')
-          return  (OUT.value = IN.value * 0.5);
+          return  (OUT.value = (IN.value * 0.5).toFixed(2));
   
         else if (selectOUT.value == 'o')
-          return  (OUT.value = IN.value * 0.6);
+          return  (OUT.value = (IN.value * 0.6).toFixed(2));
   
         else if (selectOUT.value == 'p')
-          return  (OUT.value = IN.value * 0);
+          return  (OUT.value = (IN.value * 0).toFixed(2));
   
         else if (selectOUT.value == 'q')
-          return  (OUT.value = IN.value * 0.25);
+          return  (OUT.value = (IN.value * 0.25).toFixed(2));
   
         else if (selectOUT.value == 'r')
-          return  (OUT.value = IN.value * 0.3);
+          return  (OUT.value = (IN.value * 0.3).toFixed(2));
   
         else if (selectOUT.value == 's')
-          return  (OUT.value = IN.value * 19.22);
+          return  (OUT.value = (IN.value * 19.22).toFixed(2));
   
         else if (selectOUT.value == 't')
-          return  (OUT.value = IN.value * 18.94);
+          return  (OUT.value = (IN.value * 18.94).toFixed(2));
   
         else if (selectOUT.value == 'u')
-          return  (OUT.value = IN.value * 16);
+          return  (OUT.value = (IN.value * 16).toFixed(2));
   
         else if (selectOUT.value == 'v')
-          return  (OUT.value = IN.value * 57.65);
+          return  (OUT.value = (IN.value * 57.65).toFixed(2));
   
         else if (selectOUT.value == 'w')
-          return  (OUT.value = IN.value * 56.83);
+          return  (OUT.value = (IN.value * 56.83).toFixed(2));
   
         else if (selectOUT.value == 'x')
-          return  (OUT.value = IN.value * 48);
+          return  (OUT.value = (IN.value * 48).toFixed(2));
     
       }
   
