@@ -30,7 +30,9 @@ const SearchBar = () => {
         <div className={styles.showResults} key={index}>
           <h2 className={styles.searchResultHeader}>{post.ingredient}</h2>
           <div className={styles.textImageFlexBox}>
-            <Image width={382} height={382} src={post.image} title={post.ingredient} />
+            <div className={styles.imageBox}>
+              <Image width={382} height={382} src={post.image} title={post.ingredient} />
+            </div>
             <div className={styles.substituteBox}>
               <p className={styles.searchResultSubHeading}>Substitute</p>
               <p className={styles.searchResultSubstitute}>{post.substitute}</p>
