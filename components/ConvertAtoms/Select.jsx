@@ -1611,7 +1611,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'v') {
+      if (selectIN.value == 'v') { //2.30Teasp.US
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 12112);
