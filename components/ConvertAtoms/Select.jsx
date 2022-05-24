@@ -1843,8 +1843,8 @@ const Select = () => {
   return (
   <>
    
-    <input className={styles.INPUT} id={"IN"} /* value={0} */ type="number" min="0" step="any"/>
-      <select className={styles.selectIN} id={"selectIN"} name="fromUnit">
+    <input className={styles.INPUT} id={"IN"} /* value={0} */ onKeyUp={button} type="number" min="0" step="any"/>
+      <select className={styles.selectIN} id={"selectIN"} name="fromUnit" onMouseLeave={button}>
         <option value="a">Cups (US)</option>
         <option value="b">Cups (Metric)</option>
         <option value="c">Cups (Imperial)</option>
@@ -1873,8 +1873,8 @@ const Select = () => {
       
       
       
-    <input className={styles.OUTPUT} id={"OUT"} type="number" readOnly/>
-      <select className={styles.selectOUT} id={"selectOUT"} name="fromUnit">
+    <input className={styles.OUTPUT} id={"OUT"} onKeyUp={button} type="number" readOnly/>
+      <select className={styles.selectOUT} id={"selectOUT"} name="fromUnit" onMouseLeave={button}>
         <option value="a">Cups (US)</option>
         <option value="b">Cups (Metric)</option>
         <option value="c">Cups (Imperial)</option>
@@ -1900,11 +1900,6 @@ const Select = () => {
         <option value="w">Teaspoons (Metric)</option>
         <option value="x">Teaspoons (Imperial)</option>
       </select>
-       
-      <div >
-        <button onMouseOver={button}> convert</button>
-      </div>
-    
   
   </>
   ) 
