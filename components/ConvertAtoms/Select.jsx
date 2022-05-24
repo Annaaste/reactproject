@@ -14,7 +14,7 @@ const Select = () => {
       if (selectIN.value == 'a') {
   
         if (selectOUT.value == 'a')    
-          return (OUT.value = (IN.value).toFixed(2));
+          return (OUT.value = (IN.value * 1).toFixed(2));
           /* return alert(OUT.value = IN.value + " selectOUT.value"); */
     
         else if (selectOUT.value == 'b')
@@ -95,7 +95,7 @@ const Select = () => {
           return (OUT.value = (IN.value * 1.06).toFixed(2));
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = (IN.value).toFixed(2));
+          return  (OUT.value = (IN.value * 1).toFixed(2));
     
         else if (selectOUT.value == 'c')
           return  (OUT.value = (IN.value * 0.88).toFixed(2));
@@ -1844,7 +1844,7 @@ const Select = () => {
   <>
    
     <input className={styles.INPUT} id={"IN"} /* value={0} */ onKeyUp={button} type="number" min="0" step="any"/>
-      <select className={styles.selectIN} id={"selectIN"} name="fromUnit" onMouseLeave={button}>
+      <select className={styles.selectIN} id={"selectIN"} name="fromUnit" onMouseMove={button}>
         <option value="a">Cups (US)</option>
         <option value="b">Cups (Metric)</option>
         <option value="c">Cups (Imperial)</option>
@@ -1874,7 +1874,7 @@ const Select = () => {
       
       
     <input className={styles.OUTPUT} id={"OUT"} onKeyUp={button} type="number" readOnly/>
-      <select className={styles.selectOUT} id={"selectOUT"} name="fromUnit" onMouseLeave={button}>
+      <select className={styles.selectOUT} id={"selectOUT"} name="fromUnit" onMouseMove={button}>
         <option value="a">Cups (US)</option>
         <option value="b">Cups (Metric)</option>
         <option value="c">Cups (Imperial)</option>
