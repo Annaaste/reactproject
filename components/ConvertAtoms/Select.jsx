@@ -11,7 +11,7 @@ const Select = () => {
       if (IN.value <= 0)
         return (OUT.value = "0");
     
-      if (selectIN.value == 'a') {  //OK cupsUS
+      if (selectIN.value == 'a') {
   
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value);
@@ -89,7 +89,7 @@ const Select = () => {
       }
   
   
-      if (selectIN.value == 'b') { //OK cupsMetric
+      if (selectIN.value == 'b') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 1.06);
@@ -165,7 +165,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'c') { //OK cupsImperial
+      if (selectIN.value == 'c') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 1.2);
@@ -241,7 +241,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'd') { //OK deciliters
+      if (selectIN.value == 'd') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.42);
@@ -317,7 +317,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'e') { //OK fluid oz UK
+      if (selectIN.value == 'e') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.12);
@@ -394,7 +394,7 @@ const Select = () => {
       }
   
   
-      if (selectIN.value == 'f') { // OK fl.oz US
+      if (selectIN.value == 'f') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.13);
@@ -470,7 +470,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'g') { //OK Gallons UK 2.14
+      if (selectIN.value == 'g') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 19.22);
@@ -491,7 +491,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 153.72);
   
         else if (selectOUT.value == 'g')
-          return  (OUT.value = IN.value * 1); //BREAK
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'h')
           return  (OUT.value = IN.value * 1.2);
@@ -546,7 +546,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'h') { //OK GallonsUS 2.15
+      if (selectIN.value == 'h') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 16);
@@ -623,7 +623,7 @@ const Select = () => {
       }
   
   
-      if (selectIN.value == 'i') { //OK.grams 2.16
+      if (selectIN.value == 'i') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0);
@@ -699,7 +699,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'j') { //OKkilograms2.17
+      if (selectIN.value == 'j') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0);
@@ -775,7 +775,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'k') { //OK.Liters2.18
+      if (selectIN.value == 'k') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 4.23);
@@ -851,7 +851,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'l') { //OKmilliliters2.19
+      if (selectIN.value == 'l') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.004);
@@ -927,7 +927,7 @@ const Select = () => {
     
       }
 
-      if (selectIN.value == 'm') { //OK.oz2.20
+      if (selectIN.value == 'm') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0);
@@ -1003,7 +1003,7 @@ const Select = () => {
 
       }
   
-      if (selectIN.value == 'n') { //OKpintsUK2.21
+      if (selectIN.value == 'n') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 2.4);
@@ -1079,7 +1079,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'o') { //OK2.23pintsUS
+      if (selectIN.value == 'o') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 2);
@@ -1155,7 +1155,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'p') { //OKpounds2.24
+      if (selectIN.value == 'p') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0);
@@ -1231,7 +1231,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'q') { //OK2.25quartzUK
+      if (selectIN.value == 'q') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 4.8);
@@ -1307,7 +1307,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'r') { //OK2.26quartzUS
+      if (selectIN.value == 'r') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 4);
@@ -1383,7 +1383,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 's') { //OK2.27tblsp.US
+      if (selectIN.value == 's') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.06);
@@ -1459,7 +1459,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 't') { //OKV2.28tblMetric
+      if (selectIN.value == 't') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.06);
@@ -1535,7 +1535,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'u') { //OK2.29tblImp
+      if (selectIN.value == 'u') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.08);
@@ -1611,7 +1611,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'v') { //OK2.30Teasp.US
+      if (selectIN.value == 'v') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.02);
@@ -1687,7 +1687,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'w') { //OK2.31teasp.Met
+      if (selectIN.value == 'w') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.02);
@@ -1763,7 +1763,7 @@ const Select = () => {
     
       }
   
-      if (selectIN.value == 'x') { //OK2.32tblImp
+      if (selectIN.value == 'x') {
         
         if (selectOUT.value == 'a')    
           return (OUT.value = IN.value * 0.03);
