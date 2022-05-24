@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import Image from 'next/image'
 import styles from './Footer.module.scss'
 
 const Footer = () => {
@@ -9,7 +7,7 @@ const Footer = () => {
             src="/images/logoBlack.svg"
             className={styles.logo}
             //Berättar för screenreaders att loggan går till startsidan
-            alt="Logga med namnet ingrii och en cirkel på slutet "
+            alt="Logo with name ingrii and circle at the end"
           />
       <div className={styles.getInTouch}>
         <p className='body2'>Feedback, praise or blame? Or can&#39;t find what you&#39;re looking for? Get in touch!</p>

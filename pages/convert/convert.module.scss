@@ -7,27 +7,15 @@
   color: $darkBlack;
 }
 
-/*
-.convertFieldset {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 2rem;
-  height: 48px;
-  
-  @include mq(500px) {
-    flex-direction: column;
-  }
-}
-*/
 .convertForm {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   max-width:40rem;
-  background-color: aqua;
   gap: 3rem;
   padding: 2rem;
 
- 
+  @include mq(500px) {
+    flex-direction: column;
+  }
 }

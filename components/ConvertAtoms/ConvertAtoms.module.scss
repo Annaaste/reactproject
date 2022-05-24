@@ -1,44 +1,19 @@
 @import 'colors.scss';
 
- /*.selectOUT, .selectIN  {
-    display: flex;
-    flex-direction: row;
-    row-gap: 2rem;
-    width: 26rem;
-    height: 5.45rem;
-    background-color:$white;
-    border-radius: 0.5rem;
-    padding-left: 1rem; 
-
-    @include mq(500px) {
-      width: 18rem;
-      align-self: center;
-    }
- }
-
- .INPUT, .OUTPUT  {
-  display: flex;
-  flex-direction: row;
-  row-gap: 2rem;
-  width: 26rem;
-  height: 4.8rem;
-  background-color:$white;
-  border-radius: 0.5rem;
-  padding-left: 1rem;
-
-  @include mq(500px) {
-    width: 18rem;
-    align-self: center;
-  }*/
-
 .selectOUT, .selectIN {
   display: flex;
   flex-direction: column;  
   height: 5rem;
   padding-left: 1rem;
+  padding-top: 1.5rem;
   border-radius: 0.5rem;
   background-color: $lightYellow;
   border: 0rem;
+
+  @include mq(500px) {
+    width: 18rem;
+    align-self: center;
+  }
 }
 
 .INPUT, .OUTPUT {

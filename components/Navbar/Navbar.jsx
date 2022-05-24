@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link href="/">
-        <a aria-label='Gå till startsidan'>
+        <a aria-label='Go to startpage'>
           <img
             src="/images/logoBlack.svg"
             className={styles.logo}
             //Berättar för screenreaders att loggan går till startsidan
-            alt="Logga med namnet ingrii och en cirkel på slutet "
+            alt="Logo with name ingrii and circle at the end "
           />
         </a>
       </Link>
