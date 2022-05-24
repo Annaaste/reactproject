@@ -7,17 +7,10 @@ const Convert = () => {
 
   return (
     <div className={styles.container}>
-
       <h1 className={styles.convertHeader}>Convert. <br/> Cook. Connect.</h1>
-
       <div className={styles.convertForm}>
-        {/* <fieldset className={styles.convertFieldset}> */}
-
         <Select
-
         />
-
-        {/* </fieldset> */}
       </div>
     </div>
   )

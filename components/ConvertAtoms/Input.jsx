@@ -12,7 +12,6 @@ return (
         type="text"
         id="input"
         value={input}
-        //placeholder={unitA.unit}
         placeholder="Välj antal"
         onChange={({target}) => setInput(target.value)}
       />
@@ -24,7 +23,6 @@ return (
         type="text"
         id="output"
         value={output}
-        //placeholder={unitB.unit}
         placeholder="Resultatet visas här"
         readOnly
         />

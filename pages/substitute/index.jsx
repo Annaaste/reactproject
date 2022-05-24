@@ -13,7 +13,7 @@ const Substitute = () => {
         <title>Substitut | ingrii</title>
         <meta
           name="description"
-          content="Här står det info som kan synas på Google om just den här sidan"
+          content="Find your substitute ingredient"
         />
       </Head>
       <h1 className={styles.heading}>Substitute. <br/> Experience. Enjoy.</h1>

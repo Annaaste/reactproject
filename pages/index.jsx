@@ -10,7 +10,7 @@ export default function Home() {
         <title>Home | ingrii</title>
         <meta 
           name="description"
-          content="Här står det info som kan synas på Google om just den här sidan"
+          content="Make your baking and cooking easier by converting your measurements or find a substitute ingredient"
         />
       </Head>
       <div className={styles.imageWrapper}>
