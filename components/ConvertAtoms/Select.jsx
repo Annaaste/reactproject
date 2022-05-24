@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import styles from './ConvertAtoms.module.scss'
-import Image from 'next/image'
+//import Image from 'next/image'
 
 const Select = () => {
-    let input= ('input');
-    let convertButton = ('button');
-    let selection = ('select');
+//    let input= ('input');
+//    let convertButton = ('button');
+//    let selection = ('select');
   
     function button() {
       if (IN.value <= 0)
