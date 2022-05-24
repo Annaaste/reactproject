@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import styles from './ConvertAtoms.module.scss'
-//import Image from 'next/image'
+
 
 const Select = () => {
-//    let input= ('input');
-//    let convertButton = ('button');
-//    let selection = ('select');
-  
+
     function button() {
       if (IN.value <= 0)
         return (OUT.value = "0");
@@ -15,8 +12,7 @@ const Select = () => {
   
         if (selectOUT.value == 'a')    
           return (OUT.value = (IN.value * 1).toFixed(2));
-          /* return alert(OUT.value = IN.value + " selectOUT.value"); */
-    
+          
         else if (selectOUT.value == 'b')
           return  (OUT.value = (IN.value * 0.95).toFixed(2));
     
