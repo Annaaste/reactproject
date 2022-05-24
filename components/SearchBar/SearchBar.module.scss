@@ -61,9 +61,27 @@
   margin: 1rem 0 2rem 0;
 }
 
+.textImageFlexBox {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.imageBox {
+  max-height: 282px;
+  max-width: 282px;
+}
+
+.searchResultSubstitute {
+  max-width: 240px;
+}
+
 .searchResultDescription {
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+
+.linetag {
+  color: $mediumGrey;
 }
 
 .searchResultSubHeading {

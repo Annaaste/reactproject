@@ -29,9 +29,16 @@ const SearchBar = () => {
       }).map((post, index) => (
         <div className={styles.showResults} key={index}>
           <h2 className={styles.searchResultHeader}>{post.ingredient}</h2>
-          <Image width={300} height={300} src={post.image} />
-          <p className={styles.searchResultSubHeading}>Substitute</p>
-          <p className={styles.searchResultSubstitute}>{post.substitute}</p>
+          <div className={styles.textImageFlexBox}>
+            <div className={styles.imageBox}>
+              <Image width={382} height={382} src={post.image} title={post.ingredient} />
+            </div>
+            <div className={styles.substituteBox}>
+              <p className={styles.searchResultSubHeading}>Substitute</p>
+              <p className={styles.searchResultSubstitute}>{post.substitute}</p>
+            </div>
+          </div>
+          <hr className={styles.linetag} />
           <p className={styles.searchResultSubHeading}>Description</p>
           <p className={styles.searchResultDescription}>{post.description}</p>
 
