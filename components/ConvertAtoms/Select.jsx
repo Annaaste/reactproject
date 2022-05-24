@@ -14,7 +14,7 @@ const Select = () => {
       if (selectIN.value == 'a') {
   
         if (selectOUT.value == 'a')    
-          return (OUT.value = (IN.value).toFixed(2));
+          return (OUT.value = (IN.value * 1).toFixed(2));
           /* return alert(OUT.value = IN.value + " selectOUT.value"); */
     
         else if (selectOUT.value == 'b')
@@ -95,7 +95,7 @@ const Select = () => {
           return (OUT.value = (IN.value * 1.06).toFixed(2));
     
         else if (selectOUT.value == 'b')
-          return  (OUT.value = (IN.value).toFixed(2));
+          return  (OUT.value = (IN.value * 1).toFixed(2));
     
         else if (selectOUT.value == 'c')
           return  (OUT.value = (IN.value * 0.88).toFixed(2));
@@ -174,7 +174,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 1.14);
     
         else if (selectOUT.value == 'c')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'd')
           return  (OUT.value = IN.value * 2.84);
@@ -253,7 +253,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.35);
   
         else if (selectOUT.value == 'd')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
         
         else if (selectOUT.value == 'e')
           return  (OUT.value = IN.value * 3.52);
@@ -332,7 +332,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.28);
         
         else if (selectOUT.value == 'e')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'f')
           return  (OUT.value = IN.value * 0.96);
@@ -412,7 +412,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 1.04);
   
         else if (selectOUT.value == 'f')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'g')
           return  (OUT.value = IN.value * 0.01);
@@ -570,7 +570,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.83);
   
         else if (selectOUT.value == 'h')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'i')
           return  (OUT.value = IN.value * 0);
@@ -650,7 +650,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'i')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'j')
           return  (OUT.value = IN.value * 0.001);
@@ -729,7 +729,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 1000);
   
         else if (selectOUT.value == 'j')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'k')
           return  (OUT.value = IN.value * 0);
@@ -808,7 +808,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'k')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'l')
           return  (OUT.value = IN.value * 1000);
@@ -887,7 +887,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.001);
   
         else if (selectOUT.value == 'l')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'm')
           return  (OUT.value = IN.value * 0);
@@ -966,7 +966,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'm')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'n')
           return  (OUT.value = IN.value * 0);
@@ -1045,7 +1045,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'n')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'o')
           return  (OUT.value = IN.value * 1.2);
@@ -1124,7 +1124,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.83);
   
         else if (selectOUT.value == 'o')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'p')
           return  (OUT.value = IN.value * 0);
@@ -1203,7 +1203,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0);
   
         else if (selectOUT.value == 'p')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'q')
           return  (OUT.value = IN.value * 0);
@@ -1361,7 +1361,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.83);
   
         else if (selectOUT.value == 'r')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 's')
           return  (OUT.value = IN.value * 64);
@@ -1440,7 +1440,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 0.02);
   
         else if (selectOUT.value == 's')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 't')
           return  (OUT.value = IN.value * 0.99);
@@ -1756,7 +1756,7 @@ const Select = () => {
           return  (OUT.value = IN.value * 1.01);
   
         else if (selectOUT.value == 'w')
-          return  (OUT.value = IN.value);
+          return  (OUT.value = IN.value * 1);
   
         else if (selectOUT.value == 'x')
           return  (OUT.value = IN.value * 0.84);
@@ -1844,7 +1844,7 @@ const Select = () => {
   <>
    
     <input className={styles.INPUT} id={"IN"} /* value={0} */ onKeyUp={button} type="number" min="0" step="any"/>
-      <select className={styles.selectIN} id={"selectIN"} name="fromUnit" onMouseLeave={button}>
+      <select className={styles.selectIN} id={"selectIN"} name="fromUnit" onMouseMove={button}>
         <option value="a">Cups (US)</option>
         <option value="b">Cups (Metric)</option>
         <option value="c">Cups (Imperial)</option>
@@ -1874,7 +1874,7 @@ const Select = () => {
       
       
     <input className={styles.OUTPUT} id={"OUT"} onKeyUp={button} type="number" readOnly/>
-      <select className={styles.selectOUT} id={"selectOUT"} name="fromUnit" onMouseLeave={button}>
+      <select className={styles.selectOUT} id={"selectOUT"} name="fromUnit" onMouseMove={button}>
         <option value="a">Cups (US)</option>
         <option value="b">Cups (Metric)</option>
         <option value="c">Cups (Imperial)</option>
