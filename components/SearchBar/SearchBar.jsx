@@ -5,6 +5,10 @@ import Image from 'next/image'
 const SearchBar = () => {
   const [query, setQuery] = useState("")
 
+  function handleClick() {
+    console.log('here should the substitute print result');
+  }
+
   return (
     <div className={styles.searchBarContainer}>
       <div className={styles.searchBarBox}>
@@ -12,7 +16,7 @@ const SearchBar = () => {
           <input className={styles.input} type="text" placeholder="Find your substitute ingredient" onChange={event => setQuery(event.target.value)} />
         </div>
         <div className={styles.searchButton}>
-          <button className={styles.buttonIcon}><img src='../images/icons/buttonIcon.svg'></img></button>
+          <button className={styles.buttonIcon} onClick={handleClick}><img src='../images/icons/buttonIcon.svg'></img></button>
         </div>
       </div>
 

@@ -46,7 +46,7 @@
 }
 
 .searchButton:hover {
-  background: $easterYellow;
+  background: $lightYellow;
 }
 
 .showResults {
@@ -93,7 +93,7 @@
   cursor: default;
   border-radius: 3px;
   background-color: pink;
-  display: none;
+  //display: none;
 }
 
 .searchInput.active .autocomBox li {
